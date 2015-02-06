@@ -1,0 +1,50 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+.bundle
+.DS_Store
+.livereload
+.sass-cache/
+.yardoc/
+
+# frontend
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/vendor/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+
+# backend
+
+# Ignore application configuration
+rails/config/application.yml
+rails/config/database.yml
+
+
+rails/db/schema.rb
+rails/db/schema.sql
+rails/db/*.sqlite3
+
+rails/log/*
+rails/log/*.log
+
+rails/tmp/cache/*
+rails/tmp/sockets/*
+rails/tmp/pids/*
+
+rails/public/system/*
+rails/public/assets/*
+
+rails/public/cache/*
+rails/vendor/bundle/*

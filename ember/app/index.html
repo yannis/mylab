@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mylab</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/mylab.css">
+  </head>
+  <body>
+    <script>
+      window.MylabENV = {{ENV}};
+      window.EmberENV = window.MylabENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/mylab.js"></script>
+    <script>
+      window.Mylab = require('mylab/app')['default'].create(MylabENV.APP);
+    </script>
+  </body>
+</html>
