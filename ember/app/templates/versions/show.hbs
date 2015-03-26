@@ -1,0 +1,29 @@
+<div class="col-md-12">
+  <h3 class="pull-left">
+    Version '{{model.name}}'
+    <small>
+      created {{formatted-date model.createdAt 'LL'}} – last updated {{formatted-date model.updatedAt 'LL'}}
+    </small>
+  </h3>
+  <div class="pull-right">
+    <div class="btn-group" role="group" aria-label="...">
+      {{#link-to 'versions.duplicate' model.id classNames='btn btn-success' title="Duplicate this version" data-toggle="tooltip" data-placement="top"}}
+        <span class="glyphicon glyphicon-duplicate"></span>
+      {{/link-to}}
+      {{#link-to 'versions.edit' model classNames='btn btn-primary' title="Edit this version" data-toggle="tooltip" data-placement="top"}}
+        <span class="glyphicon glyphicon-edit"></span>
+      {{/link-to}}
+      <a href="#" {{action "delete" model}} class="btn btn-danger" title="Destroy this version" data-toggle="tooltip" data-placement="top">
+        <span class="glyphicon glyphicon-trash"></span>
+      </a>
+      <a {{bind-attr href=model.pdfUrl}} class="btn btn-default" title="Get a PDF of this version" data-toggle="tooltip" data-placement="top" target="_blank">
+        {{fa-icon "file-pdf-o"}}
+      </a>
+    </div>
+  </div>
+</div>
+<div class="col-md-12">
+  <div class="document-html">
+    {{markdown-to-html markdown=model.contentMd}}
+  </div>
+</div>

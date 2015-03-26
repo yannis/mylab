@@ -1,0 +1,1 @@
+Figaro.require_keys("SECRET_TOKEN", "DEVISE_SECRET_KEY", "MAILER_HOST")

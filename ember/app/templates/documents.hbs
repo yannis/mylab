@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col-sm-12 col-md-4 col-lg-3">
+    <h1>Documents</h1>
+    <form>
+      <div class="form-group">
+        {{select-2
+          content=arrangedContent
+          value=currentDocument
+          optionLabelPath="name"
+          placeholder="Select a document"
+          allowClear=true
+        }}
+      </div>
+    </form>
+    {{#link-to 'documents.new' classNames='btn btn-primary' title="Create a new document"}}
+      <span class="glyphicon glyphicon-plus"></span> Create a new document
+    {{/link-to}}
+  </div>
+  <div class="col-sm-12 col-md-8 col-lg-9">
+    {{outlet}}
+  </div>
+</div>

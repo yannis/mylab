@@ -1,0 +1,13 @@
+{{#if untimedMessages}}
+  {{#each message in untimedMessages}}
+    {{flash-message
+      message=message
+    }}
+  {{/each}}
+{{/if}}
+
+{{#if currentMessage}}
+  {{flash-message
+    message=currentMessage
+  }}
+{{/if}}

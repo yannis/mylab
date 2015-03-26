@@ -1,0 +1,27 @@
+<div class='row'>
+  <div class="col-md-4">
+    <img {{bind-attr src=picture.thumbSmallUrl}}/>
+    <a href="#" {{action "deletePicture" picture}} class="btn btn-danger btn-sm">
+      <span class="glyphicon glyphicon-trash"></span>
+    </a>
+  </div>
+  <div class="col-md-8">
+    <table class='table table-striped'>
+      {{#each thumb in picture.thumbnails}}
+        <tr>
+          <td>
+            <a {{bind-attr href=thumb.url}}>
+              {{thumb.name}}
+            </a>
+          </td>
+          <td>
+            {{thumb.width}}x{{thumb.height}}
+          </td>
+          <td>
+            {{zero-clipboard text=thumb.markdownTag label="Copy url"}}
+          </td>
+        </tr>
+      {{/each}}
+    </table>
+  </div>
+</div>

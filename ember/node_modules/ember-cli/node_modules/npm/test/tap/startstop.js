@@ -1,82 +1,60 @@
-var common = require('../common-tap')
-  , test = require('tap').test
-  , path = require('path')
-  , spawn = require('child_process').spawn
-  , rimraf = require('rimraf')
-  , mkdirp = require('mkdirp')
-  , pkg = __dirname + '/startstop'
-  , cache = pkg + '/cache'
-  , tmp = pkg + '/tmp'
-  , node = process.execPath
-  , npm = path.resolve(__dirname, '../../cli.js')
+var common = require("../common-tap")
+  , test = require("tap").test
+  , path = require("path")
+  , rimraf = require("rimraf")
+  , mkdirp = require("mkdirp")
+  , pkg = path.resolve(__dirname, "startstop")
+  , cache = path.resolve(pkg, "cache")
+  , tmp = path.resolve(pkg, "tmp")
+  , opts = { cwd: pkg }
 
-function run (command, t, parse) {
-  var c = ''
-    , e = ''
-    , node = process.execPath
-    , child = spawn(node, [npm, command], {
-      cwd: pkg
-    })
+function testOutput (t, command, er, code, stdout, stderr) {
+  t.notOk(code, "npm " + command + " exited with code 0")
 
-    child.stderr.on('data', function (chunk) {
-      e += chunk
-    })
+  if (stderr)
+    throw new Error("npm " + command + " stderr: " + stderr.toString())
 
-    child.stdout.on('data', function (chunk) {
-      c += chunk
-    })
-
-    child.stdout.on('end', function () {
-      if (e) {
-        throw new Error('npm ' + command + ' stderr: ' + e.toString())
-      }
-      if (parse) {
-        // custom parsing function
-        c = parse(c)
-        t.equal(c.actual, c.expected)
-        t.end()
-        return
-      }
-
-      c = c.trim().split('\n')
-      c = c[c.length - 1]
-      t.equal(c, command)
-      t.end()
-    })
-
+  stdout = stdout.trim().split(/\n|\r/)
+  stdout = stdout[stdout.length - 1]
+  t.equal(stdout, command)
+  t.end()
 }
 
 function cleanup () {
-  rimraf.sync(pkg + '/cache')
-  rimraf.sync(pkg + '/tmp')
+  rimraf.sync(cache)
+  rimraf.sync(tmp)
 }
 
-test('setup', function (t) {
+test("setup", function (t) {
   cleanup()
-  mkdirp.sync(pkg + '/cache')
-  mkdirp.sync(pkg + '/tmp')
+  mkdirp.sync(cache)
+  mkdirp.sync(tmp)
   t.end()
-
 })
 
-test('npm start', function (t) {
-  run('start', t)
+test("npm start", function (t) {
+  common.npm(["start"], opts, testOutput.bind(null, t, "start"))
 })
 
-test('npm stop', function (t) {
-  run('stop', t)
+test("npm stop", function (t) {
+  common.npm(["stop"], opts, testOutput.bind(null, t, "stop"))
 })
 
-test('npm restart', function (t) {
-  run ('restart', t, function (output) {
-    output = output.split('\n').filter(function (val) {
+test("npm restart", function (t) {
+  common.npm(["restart"], opts, function (er, c, stdout) {
+    if (er)
+      throw er
+
+    var output = stdout.split("\n").filter(function (val) {
       return val.match(/^s/)
     })
-    return {actual: output, expected: output}
+
+    t.same(output.sort(), ["start", "stop"].sort())
+    t.end()
   })
 })
 
-test('cleanup', function (t) {
+test("cleanup", function (t) {
   cleanup()
   t.end()
 })

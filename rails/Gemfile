@@ -8,12 +8,25 @@ gem 'pg'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem "sass-rails"
+gem 'bootstrap-sass'
+
 gem 'active_model_serializers', '0.8.3'
 
 gem "figaro"
 gem "devise"
 gem "cancancan"
 gem "papertrail"
+gem "kaminari"
+gem "rmagick"
+gem "carrierwave"
+gem "redcarpet"
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
+gem "word-to-markdown"
+
+
+gem 'rack-cors', require: 'rack/cors'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -33,5 +46,18 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem "factory_girl_rails"
+  gem "rspec-rails"
+  gem 'email_spec'
+
+  gem "guard"
+  gem "rb-fsevent"
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+
+  gem "faker"
 end
 
+group :test do
+  gem 'shoulda-matchers', require: false
+end

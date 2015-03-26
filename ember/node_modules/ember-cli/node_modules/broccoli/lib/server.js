@@ -16,17 +16,18 @@ function serve (builder, options) {
 
   var server = http.createServer(app)
 
-  process.addListener('exit', function () {
-    builder.cleanup()
-  })
-
   // We register these so the 'exit' handler removing temp dirs is called
-  process.on('SIGINT', function () {
-    process.exit(1)
-  })
-  process.on('SIGTERM', function () {
-    process.exit(1)
-  })
+  function cleanupAndExit() {
+    builder.cleanup().catch(function(err) {
+      console.error('Cleanup error:')
+      console.error(err && err.stack ? err.stack : err)
+    }).finally(function() {
+      process.exit(1)
+    })
+  }
+
+  process.on('SIGINT', cleanupAndExit)
+  process.on('SIGTERM', cleanupAndExit)
 
   var livereloadServer = new tinylr.Server
   livereloadServer.listen(options.liveReloadPort, function (err) {
@@ -36,14 +37,13 @@ function serve (builder, options) {
   })
 
   var liveReload = function() {
-    // We could pass files: glob.sync('**', {cwd: ...}), but this spams
-    // stdout with messages and Chrome LiveReload doesn't seem to care
-    // about the specific files.
-    livereloadServer.changed({body: {files: ['LiveReload files']}})
+    // Chrome LiveReload doesn't seem to care about the specific files as long
+    // as we pass something.
+    livereloadServer.changed({body: {files: ['livereload_dummy']}})
   }
 
   watcher.on('change', function(results) {
-    console.log('Built - ' + Math.round(results.totalTime / 1e6) + ' ms')
+    console.log('Built - ' + Math.round(results.totalTime / 1e6) + ' ms @ ' + new Date().toString())
     liveReload()
   })
 

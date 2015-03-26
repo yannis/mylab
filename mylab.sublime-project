@@ -3,7 +3,7 @@
   [
     {
       "path": "/Users/yannis/railsapps/mylab",
-      "folder_exclude_patterns": ["rails/vendor/bundle", "ember/node_modules", "log", ".sass-cache", ".yardoc", "coverage", "tmp/class-*", "tmp/es_*", "tmp/jshinter*", "tmp/replace_*", "tmp/static_compiler*", "tmp/template_compiler*", "tmp/tree_merger*", "tmp/coffee_script*", "tmp/concat-tmp*", "tmp/export_tree*", "tmp/sass_compiler*"],
+      "folder_exclude_patterns": ["rails/vendor/bundle", "ember/node_modules*", "ember/bower_components*", "ember/build*", "ember/dist*", "ember/tmp", "log", ".sass-cache", ".yardoc", "coverage", "tmp/class-*", "tmp/es_*", "tmp/jshinter*", "tmp/replace_*", "tmp/static_compiler*", "tmp/template_compiler*", "tmp/tree_merger*", "tmp/coffee_script*", "tmp/concat-tmp*", "tmp/export_tree*", "tmp/sass_compiler*"],
       "file_exclude_patterns": ["*.sublime-workspace"]
     }
   ]

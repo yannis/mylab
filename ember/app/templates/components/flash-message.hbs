@@ -1,0 +1,9 @@
+<button class="close" data-dismiss="alert"></button>
+{{#unless message.timed}}
+  <button type="button" class="close" data-test="flash-button" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+{{/unless}}
+{{{content}}}
+{{yield}}
+

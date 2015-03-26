@@ -1,0 +1,9 @@
+<li>
+  <a {{bind-attr href="attachment.url" }}>
+    {{attachment.name}}
+  </a>
+  <a href="#" {{action "deleteAttachment" attachment}} class="btn btn-danger">
+    <span class="glyphicon glyphicon-trash"></span>
+    Destroy
+  </a>
+</li>
