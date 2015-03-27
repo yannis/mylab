@@ -22,7 +22,6 @@ export default Ember.ArrayController.extend({
       });
       docx.save().then(function(d){
         var document = _this.get("controllers.documents/show.model");
-        debugger;
         var version = _this.get('store').createRecord('version', {
           contentMd: d.get('markdown'),
           document: document
@@ -34,6 +33,7 @@ export default Ember.ArrayController.extend({
             duration: 2000, // Number in milliseconds
             type: 'success', // String
           });
+          _this.transitionToRoute('versions.show', v);
         });
       });
     }

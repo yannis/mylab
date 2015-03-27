@@ -518,7 +518,6 @@ define('mylab/controllers/versions', ['exports', 'ember'], function (exports, Em
         });
         docx.save().then(function (d) {
           var document = _this.get("controllers.documents/show.model");
-          debugger;
           var version = _this.get("store").createRecord("version", {
             contentMd: d.get("markdown"),
             document: document
@@ -529,6 +528,7 @@ define('mylab/controllers/versions', ['exports', 'ember'], function (exports, Em
               content: "Docx successfully converted", // String
               duration: 2000, // Number in milliseconds
               type: "success" });
+            _this.transitionToRoute("versions.show", v);
           });
         });
       }
@@ -1228,7 +1228,7 @@ define('mylab/routes/versions/show', ['exports', 'ember'], function (exports, Em
               content: "Version deleted",
               duration: 2000,
               type: "success" });
-            _this.transitionTo("versions.index");
+            _this.transitionTo("documents.show", v.get("document"));
           });
         }
       } }
@@ -4418,7 +4418,7 @@ define('mylab/tests/controllers/versions.jshint', function () {
 
   module('JSHint - controllers');
   test('controllers/versions.js should pass jshint', function() { 
-    ok(false, 'controllers/versions.js should pass jshint.\ncontrollers/versions.js: line 25, col 9, Forgotten \'debugger\' statement?\ncontrollers/versions.js: line 19, col 11, \'docu\' is defined but never used.\n\n2 errors'); 
+    ok(false, 'controllers/versions.js should pass jshint.\ncontrollers/versions.js: line 19, col 11, \'docu\' is defined but never used.\n\n1 error'); 
   });
 
 });
@@ -4745,7 +4745,7 @@ define('mylab/tests/routes/versions/show.jshint', function () {
 
   module('JSHint - routes/versions');
   test('routes/versions/show.js should pass jshint', function() { 
-    ok(false, 'routes/versions/show.js should pass jshint.\nroutes/versions/show.js: line 19, col 47, \'v\' is defined but never used.\n\n1 error'); 
+    ok(true, 'routes/versions/show.js should pass jshint.'); 
   });
 
 });
@@ -5891,7 +5891,7 @@ catch(err) {
 if (runningTests) {
   require("mylab/tests/test-helper");
 } else {
-  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.f8c771fb"});
+  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.29e5bbd7"});
 }
 
 /* jshint ignore:end */

@@ -22,7 +22,7 @@ export default Ember.Route.extend({
             duration: 2000,
             type: 'success', // String
           });
-          _this.transitionTo('versions.index');
+          _this.transitionTo('documents.show', v.get('document'));
         });
       }
     },
