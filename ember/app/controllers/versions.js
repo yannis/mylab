@@ -2,6 +2,8 @@ import Ember from 'ember';
 
 export default Ember.ArrayController.extend({
   needs: ["documents/show"],
+  sortProperties: ['createdAt'],
+  sortAscending: false,
 
   currentVersionChanged: function(){
     if (this.get('currentVersion')) {
@@ -10,8 +12,6 @@ export default Ember.ArrayController.extend({
       this.transitionToRoute('versions');
     }
   }.observes('currentVersion'),
-  // sortProperties: ['name'],
-  // sortAscending: false,
 
   actions: {
     createVersionFromWordFile: function(file) {

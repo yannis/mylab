@@ -498,6 +498,8 @@ define('mylab/controllers/versions', ['exports', 'ember'], function (exports, Em
 
   exports['default'] = Ember['default'].ArrayController.extend({
     needs: ["documents/show"],
+    sortProperties: ["createdAt"],
+    sortAscending: false,
 
     currentVersionChanged: (function () {
       if (this.get("currentVersion")) {
@@ -506,8 +508,6 @@ define('mylab/controllers/versions', ['exports', 'ember'], function (exports, Em
         this.transitionToRoute("versions");
       }
     }).observes("currentVersion"),
-    // sortProperties: ['name'],
-    // sortAscending: false,
 
     actions: {
       createVersionFromWordFile: function createVersionFromWordFile(file) {
@@ -904,7 +904,7 @@ define('mylab/models/version', ['exports', 'ember-data', 'mylab/utils/date-helpe
     document: DS['default'].belongsTo("document"),
 
     pdfUrl: (function () {
-      return "http://mylab.dev" + config['default'].apiHost + "/versions/" + this.get("id") + ".pdf";
+      return config['default'].proxy + config['default'].apiHost + "/versions/" + this.get("id") + ".pdf";
     }).property("id"),
 
     nameForSelectMenu: (function () {
@@ -952,7 +952,7 @@ define('mylab/router', ['exports', 'ember', 'mylab/config/environment'], functio
       this.route("new");
     });
 
-    // this.resource('API::V1::picture', function() {});
+    this.resource("API::V1::picture", function () {});
   });
 
   exports['default'] = Router;
@@ -965,16 +965,18 @@ define('mylab/routes/application', ['exports', 'ember'], function (exports, Embe
   exports['default'] = Ember['default'].Route.extend({
     beforeModel: function beforeModel() {
       return this.csrf.fetchToken();
-    },
-    actions: {
-      didSelect: function didSelect() {
-        debugger;
-      }
-    } //,
-    // redirect: function() {
-    //   this.transitionTo('documents');
-    // }
-  });
+    } });
+
+  // actions: {
+  //   didSelect: function(){
+  //     debugger
+  //   }
+  // }
+  // ,
+  // redirect: function() {
+  //   debugger;
+  //   this.transitionTo('documents');
+  // }
 
 });
 define('mylab/routes/documents', ['exports', 'ember'], function (exports, Ember) {
@@ -993,7 +995,7 @@ define('mylab/routes/documents', ['exports', 'ember'], function (exports, Ember)
     // },
 
     model: function model(params) {
-      return this.store.find("document", params);
+      return this.store.find("document");
       // return this.findPaged('document', params);
     },
 
@@ -1028,14 +1030,31 @@ define('mylab/routes/documents', ['exports', 'ember'], function (exports, Ember)
   });
 
 });
+define('mylab/routes/documents/index', ['exports', 'ember'], function (exports, Ember) {
+
+  'use strict';
+
+  exports['default'] = Ember['default'].Route.extend({
+
+    model: function model(params) {
+      return this.modelFor("documents");
+    },
+
+    afterModel: function afterModel(model, transition) {
+      if (model.length) {
+        var lastUpdatedDocument = model.sortBy("updatedAt:desc").get("firstObject");
+        return this.transitionTo("documents.show", lastUpdatedDocument);
+      }
+    }
+  });
+
+});
 define('mylab/routes/documents/new', ['exports', 'ember'], function (exports, Ember) {
 
   'use strict';
 
   exports['default'] = Ember['default'].Route.extend({
     model: function model() {
-
-      debugger;
       return this.store.createRecord("document");
     }
   });
@@ -1047,19 +1066,8 @@ define('mylab/routes/documents/show', ['exports', 'ember'], function (exports, E
 
   exports['default'] = Ember['default'].Route.extend({
     model: function model(params) {
-      return this.store.find("document", params.document_id);
-    },
-
-    // afterModel: function(model){
-    //   this.transitionTo('versions.index');
-    // },
-
-    redirect: function redirect(model) {
-      this.transitionTo("versions.index");
-      // var _this = this;
-      // var document = this.store.find('document', params.id).then(function(document){
-      //   _this.transitionTo('versions.show', document.get('lastVersion'));
-      // });
+      var documents = this.modelFor("documents");
+      return documents.findBy("id", params.document_id);
     },
 
     setupController: function setupController(controller, model) {
@@ -1076,6 +1084,19 @@ define('mylab/routes/documents/show', ['exports', 'ember'], function (exports, E
   });
 
 });
+define('mylab/routes/documents/show/index', ['exports', 'ember'], function (exports, Ember) {
+
+  'use strict';
+
+  exports['default'] = Ember['default'].Route.extend({
+    model: function model(params) {
+      return this.modelFor("documents.show");
+    },
+    redirect: function redirect(model, transition) {
+      this.transitionTo("versions");
+    } });
+
+});
 define('mylab/routes/picture', ['exports', 'ember'], function (exports, Ember) {
 
 	'use strict';
@@ -1090,16 +1111,9 @@ define('mylab/routes/versions', ['exports', 'ember'], function (exports, Ember) 
   exports['default'] = Ember['default'].Route.extend({
     model: function model(params) {
       var document = this.modelFor("documents/show");
-      return document.get("versions").sortBy("createdAt");
-    },
-    afterModel: function afterModel(model) {
-      this.transitionTo("versions.show", model.get("lastObject"));
+      return document.get("versions").sortBy("createdAt:desc");
     },
 
-    // redirect: function (params) {
-    //   var document = this.modelFor("documents/show");
-    //   this.transitionTo('versions.show', document.get('lastVersion'));
-    // },
     actions: {
       optionSelected: function optionSelected(id) {
         this.transitionTo("versions.show", id);
@@ -1152,6 +1166,23 @@ define('mylab/routes/versions/edit', ['exports', 'ember'], function (exports, Em
           }
         }
       }
+    }
+  });
+
+});
+define('mylab/routes/versions/index', ['exports', 'ember'], function (exports, Ember) {
+
+  'use strict';
+
+  exports['default'] = Ember['default'].Route.extend({
+
+    model: function model(params) {
+      return this.modelFor("versions");
+    },
+
+    redirect: function redirect(model, transition) {
+      var lastCreatedVersion = model.sortBy("createdAt:desc").get("firstObject");
+      return this.transitionTo("versions.show", lastCreatedVersion);
     }
   });
 
@@ -2599,7 +2630,7 @@ define('mylab/templates/documents', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("div");
-        dom.setAttribute(el2,"class","col-sm-12 col-md-4 col-lg-3");
+        dom.setAttribute(el2,"class","col-sm-12 col-md-4 col-lg-2");
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createElement("h1");
@@ -2629,7 +2660,7 @@ define('mylab/templates/documents', ['exports'], function (exports) {
         var el2 = dom.createTextNode("\n  ");
         dom.appendChild(el1, el2);
         var el2 = dom.createElement("div");
-        dom.setAttribute(el2,"class","col-sm-12 col-md-8 col-lg-9");
+        dom.setAttribute(el2,"class","col-sm-12 col-md-8 col-lg-10");
         var el3 = dom.createTextNode("\n    ");
         dom.appendChild(el2, el3);
         var el3 = dom.createTextNode("\n  ");
@@ -2805,6 +2836,53 @@ define('mylab/templates/documents/edit', ['exports'], function (exports) {
         var morph1 = dom.createMorphAt(fragment,1,2,contextualElement);
         content(env, morph0, context, "model.name");
         inline(env, morph1, context, "partial", ["documents/form"], {});
+        return fragment;
+      }
+    };
+  }()));
+
+});
+define('mylab/templates/documents/index', ['exports'], function (exports) {
+
+  'use strict';
+
+  exports['default'] = Ember.HTMLBars.template((function() {
+    return {
+      isHTMLBars: true,
+      blockParams: 0,
+      cachedFragment: null,
+      hasRendered: false,
+      build: function build(dom) {
+        var el0 = dom.createDocumentFragment();
+        var el1 = dom.createTextNode("");
+        dom.appendChild(el0, el1);
+        var el1 = dom.createTextNode("\n");
+        dom.appendChild(el0, el1);
+        return el0;
+      },
+      render: function render(context, env, contextualElement) {
+        var dom = env.dom;
+        var hooks = env.hooks, content = hooks.content;
+        dom.detectNamespace(contextualElement);
+        var fragment;
+        if (env.useFragmentCache && dom.canClone) {
+          if (this.cachedFragment === null) {
+            fragment = this.build(dom);
+            if (this.hasRendered) {
+              this.cachedFragment = fragment;
+            } else {
+              this.hasRendered = true;
+            }
+          }
+          if (this.cachedFragment) {
+            fragment = dom.cloneNode(this.cachedFragment, true);
+          }
+        } else {
+          fragment = this.build(dom);
+        }
+        if (this.cachedFragment) { dom.repairClonedNode(fragment,[0]); }
+        var morph0 = dom.createMorphAt(fragment,0,1,contextualElement);
+        content(env, morph0, context, "outlet");
         return fragment;
       }
     };
@@ -3583,7 +3661,7 @@ define('mylab/templates/versions', ['exports'], function (exports) {
         var morph1 = dom.createMorphAt(element1,0,1);
         var morph2 = dom.createMorphAt(element1,1,2);
         var morph3 = dom.createMorphAt(element0,4,5);
-        inline(env, morph0, context, "select-2", [], {"content": get(env, context, "model"), "value": get(env, context, "currentVersion"), "optionLabelPath": "nameForSelectMenu", "placeholder": "Select a version"});
+        inline(env, morph0, context, "select-2", [], {"content": get(env, context, "arrangedContent"), "value": get(env, context, "currentVersion"), "optionLabelPath": "nameForSelectMenu", "placeholder": "Select a version"});
         block(env, morph1, context, "link-to", ["versions.new"], {"classNames": "btn btn-success", "title": "Create a new version for this document", "data-toggle": "tooltip", "data-placement": "top"}, child0, null);
         block(env, morph2, context, "file-picker", [], {"accept": ".docx,.doc", "fileLoaded": "createVersionFromWordFile", "readAs": "readAsDataURL", "progress": "true", "preview": false, "classNames": "btn btn-default"}, child1, null);
         content(env, morph3, context, "outlet");
@@ -3905,12 +3983,54 @@ define('mylab/templates/versions/new', ['exports'], function (exports) {
       hasRendered: false,
       build: function build(dom) {
         var el0 = dom.createDocumentFragment();
-        var el1 = dom.createTextNode("");
-        dom.appendChild(el0, el1);
-        var el1 = dom.createTextNode("\n");
-        dom.appendChild(el0, el1);
         var el1 = dom.createElement("div");
+        dom.setAttribute(el1,"class","row");
         var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","col-md-12");
+        var el3 = dom.createTextNode("\n    ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createElement("h3");
+        var el4 = dom.createTextNode("\n      Version '");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("'\n      ");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("br");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("\n      ");
+        dom.appendChild(el3, el4);
+        var el4 = dom.createElement("small");
+        var el5 = dom.createTextNode("\n        created ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode(" – last updated ");
+        dom.appendChild(el4, el5);
+        var el5 = dom.createTextNode("\n      ");
+        dom.appendChild(el4, el5);
+        dom.appendChild(el3, el4);
+        var el4 = dom.createTextNode("\n    ");
+        dom.appendChild(el3, el4);
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n  ");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","col-md-6");
+        var el3 = dom.createTextNode("\n    ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n  ");
+        dom.appendChild(el2, el3);
+        dom.appendChild(el1, el2);
+        var el2 = dom.createTextNode("\n  ");
+        dom.appendChild(el1, el2);
+        var el2 = dom.createElement("div");
+        dom.setAttribute(el2,"class","col-md-6 document-html");
+        var el3 = dom.createTextNode("\n    ");
+        dom.appendChild(el2, el3);
+        var el3 = dom.createTextNode("\n  ");
+        dom.appendChild(el2, el3);
         dom.appendChild(el1, el2);
         var el2 = dom.createTextNode("\n");
         dom.appendChild(el1, el2);
@@ -3921,7 +4041,7 @@ define('mylab/templates/versions/new', ['exports'], function (exports) {
       },
       render: function render(context, env, contextualElement) {
         var dom = env.dom;
-        var hooks = env.hooks, inline = hooks.inline, get = hooks.get;
+        var hooks = env.hooks, content = hooks.content, get = hooks.get, inline = hooks.inline;
         dom.detectNamespace(contextualElement);
         var fragment;
         if (env.useFragmentCache && dom.canClone) {
@@ -3939,11 +4059,19 @@ define('mylab/templates/versions/new', ['exports'], function (exports) {
         } else {
           fragment = this.build(dom);
         }
-        if (this.cachedFragment) { dom.repairClonedNode(fragment,[0]); }
-        var morph0 = dom.createMorphAt(fragment,0,1,contextualElement);
-        var morph1 = dom.createMorphAt(dom.childAt(fragment, [2]),0,1);
-        inline(env, morph0, context, "partial", ["versions/form"], {});
-        inline(env, morph1, context, "markdown-to-html", [], {"markdown": get(env, context, "model.contentMd")});
+        var element0 = dom.childAt(fragment, [0]);
+        var element1 = dom.childAt(element0, [1, 1]);
+        var element2 = dom.childAt(element1, [4]);
+        var morph0 = dom.createMorphAt(element1,0,1);
+        var morph1 = dom.createMorphAt(element2,0,1);
+        var morph2 = dom.createMorphAt(element2,1,2);
+        var morph3 = dom.createMorphAt(dom.childAt(element0, [3]),0,1);
+        var morph4 = dom.createMorphAt(dom.childAt(element0, [5]),0,1);
+        content(env, morph0, context, "model.name");
+        inline(env, morph1, context, "formatted-date", [get(env, context, "model.createdAt"), "LL"], {});
+        inline(env, morph2, context, "formatted-date", [get(env, context, "model.updatedAt"), "LL"], {});
+        inline(env, morph3, context, "partial", ["versions/form"], {});
+        inline(env, morph4, context, "markdown-to-html", [], {"markdown": get(env, context, "model.contentMd")});
         return fragment;
       }
     };
@@ -4477,7 +4605,7 @@ define('mylab/tests/models/version.jshint', function () {
 
   module('JSHint - models');
   test('models/version.js should pass jshint', function() { 
-    ok(false, 'models/version.js should pass jshint.\nmodels/version.js: line 16, col 80, Missing semicolon.\n\n1 error'); 
+    ok(false, 'models/version.js should pass jshint.\nmodels/version.js: line 16, col 74, Missing semicolon.\n\n1 error'); 
   });
 
 });
@@ -4497,7 +4625,7 @@ define('mylab/tests/routes/application.jshint', function () {
 
   module('JSHint - routes');
   test('routes/application.js should pass jshint', function() { 
-    ok(false, 'routes/application.js should pass jshint.\nroutes/application.js: line 9, col 7, Forgotten \'debugger\' statement?\nroutes/application.js: line 9, col 15, Missing semicolon.\n\n2 errors'); 
+    ok(true, 'routes/application.js should pass jshint.'); 
   });
 
 });
@@ -4507,7 +4635,17 @@ define('mylab/tests/routes/documents.jshint', function () {
 
   module('JSHint - routes');
   test('routes/documents.js should pass jshint', function() { 
-    ok(true, 'routes/documents.js should pass jshint.'); 
+    ok(false, 'routes/documents.js should pass jshint.\nroutes/documents.js: line 16, col 19, \'params\' is defined but never used.\n\n1 error'); 
+  });
+
+});
+define('mylab/tests/routes/documents/index.jshint', function () {
+
+  'use strict';
+
+  module('JSHint - routes/documents');
+  test('routes/documents/index.js should pass jshint', function() { 
+    ok(false, 'routes/documents/index.js should pass jshint.\nroutes/documents/index.js: line 5, col 19, \'params\' is defined but never used.\nroutes/documents/index.js: line 9, col 31, \'transition\' is defined but never used.\n\n2 errors'); 
   });
 
 });
@@ -4517,7 +4655,7 @@ define('mylab/tests/routes/documents/new.jshint', function () {
 
   module('JSHint - routes/documents');
   test('routes/documents/new.js should pass jshint', function() { 
-    ok(false, 'routes/documents/new.js should pass jshint.\nroutes/documents/new.js: line 6, col 5, Forgotten \'debugger\' statement?\nroutes/documents/new.js: line 6, col 13, Missing semicolon.\n\n2 errors'); 
+    ok(true, 'routes/documents/new.js should pass jshint.'); 
   });
 
 });
@@ -4527,7 +4665,17 @@ define('mylab/tests/routes/documents/show.jshint', function () {
 
   module('JSHint - routes/documents');
   test('routes/documents/show.js should pass jshint', function() { 
-    ok(false, 'routes/documents/show.js should pass jshint.\nroutes/documents/show.js: line 12, col 23, \'model\' is defined but never used.\n\n1 error'); 
+    ok(true, 'routes/documents/show.js should pass jshint.'); 
+  });
+
+});
+define('mylab/tests/routes/documents/show/index.jshint', function () {
+
+  'use strict';
+
+  module('JSHint - routes/documents/show');
+  test('routes/documents/show/index.js should pass jshint', function() { 
+    ok(false, 'routes/documents/show/index.js should pass jshint.\nroutes/documents/show/index.js: line 4, col 19, \'params\' is defined but never used.\nroutes/documents/show/index.js: line 7, col 30, \'transition\' is defined but never used.\nroutes/documents/show/index.js: line 7, col 23, \'model\' is defined but never used.\n\n3 errors'); 
   });
 
 });
@@ -4568,6 +4716,16 @@ define('mylab/tests/routes/versions/edit.jshint', function () {
   module('JSHint - routes/versions');
   test('routes/versions/edit.js should pass jshint', function() { 
     ok(false, 'routes/versions/edit.js should pass jshint.\nroutes/versions/edit.js: line 16, col 92, Missing semicolon.\n\n1 error'); 
+  });
+
+});
+define('mylab/tests/routes/versions/index.jshint', function () {
+
+  'use strict';
+
+  module('JSHint - routes/versions');
+  test('routes/versions/index.js should pass jshint', function() { 
+    ok(false, 'routes/versions/index.js should pass jshint.\nroutes/versions/index.js: line 5, col 19, \'params\' is defined but never used.\nroutes/versions/index.js: line 9, col 29, \'transition\' is defined but never used.\n\n2 errors'); 
   });
 
 });
@@ -5733,7 +5891,7 @@ catch(err) {
 if (runningTests) {
   require("mylab/tests/test-helper");
 } else {
-  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.d19c3194"});
+  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.c4cf8e08"});
 }
 
 /* jshint ignore:end */

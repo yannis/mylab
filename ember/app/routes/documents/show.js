@@ -2,19 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function(params){
-    return this.store.find('document', params.document_id);
-  },
-
-  // afterModel: function(model){
-  //   this.transitionTo('versions.index');
-  // },
-
-  redirect: function (model) {
-    this.transitionTo('versions.index');
-    // var _this = this;
-    // var document = this.store.find('document', params.id).then(function(document){
-    //   _this.transitionTo('versions.show', document.get('lastVersion'));
-    // });
+    var documents = this.modelFor('documents');
+    return documents.findBy('id', params.document_id);
   },
 
   setupController: function (controller, model) {

@@ -38,7 +38,7 @@ Router.map(function() {
     this.route('new');
   });
 
-  // this.resource('API::V1::picture', function() {});
+  this.resource('API::V1::picture', function() {});
 });
 
 export default Router;

@@ -7,6 +7,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     apiHost: "api/v1",
+    proxy: "http://mylab.dev/",
 
     contentSecurityPolicy: {
       'default-src': "'self' mylab.dev",

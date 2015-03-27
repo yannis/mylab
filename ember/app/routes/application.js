@@ -4,12 +4,14 @@ export default Ember.Route.extend({
   beforeModel: function() {
     return this.csrf.fetchToken();
   },
-  actions: {
-    didSelect: function(){
-      debugger
-    }
-  }//,
+  // actions: {
+  //   didSelect: function(){
+  //     debugger
+  //   }
+  // }
+  // ,
   // redirect: function() {
+  //   debugger;
   //   this.transitionTo('documents');
   // }
 });
