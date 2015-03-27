@@ -25,7 +25,6 @@ gem 'wicked_pdf'
 gem 'wkhtmltopdf-binary'
 gem "word-to-markdown"
 
-
 gem 'rack-cors', require: 'rack/cors'
 
 # Use ActiveModel has_secure_password
