@@ -4605,7 +4605,7 @@ define('mylab/tests/models/version.jshint', function () {
 
   module('JSHint - models');
   test('models/version.js should pass jshint', function() { 
-    ok(false, 'models/version.js should pass jshint.\nmodels/version.js: line 16, col 74, Missing semicolon.\n\n1 error'); 
+    ok(true, 'models/version.js should pass jshint.'); 
   });
 
 });
@@ -5064,20 +5064,25 @@ define('mylab/tests/unit/controllers/documents/show-test.jshint', function () {
   });
 
 });
-define('mylab/tests/unit/controllers/versions-test', ['ember-qunit'], function (ember_qunit) {
+define('mylab/tests/unit/controllers/versions-test', function () {
 
-  'use strict';
+	'use strict';
 
-  ember_qunit.moduleFor("controller:versions", {});
+	// import {
+	//   moduleFor,
+	//   test
+	// } from 'ember-qunit';
 
-  // Replace this with your real tests.
-  ember_qunit.test("it exists", function (assert) {
-    var controller = this.subject();
-    assert.ok(controller);
-  });
+	// moduleFor('controller:versions', {
+	//   // Specify the other units that are required for this test.
+	//   // needs: ['controller:foo']
+	// });
 
-  // Specify the other units that are required for this test.
-  // needs: ['controller:foo']
+	// // Replace this with your real tests.
+	// test('it exists', function(assert) {
+	//   var controller = this.subject();
+	//   assert.ok(controller);
+	// });
 
 });
 define('mylab/tests/unit/controllers/versions-test.jshint', function () {
@@ -5287,32 +5292,6 @@ define('mylab/tests/unit/initializers/tooltip-test.jshint', function () {
   });
 
 });
-define('mylab/tests/unit/models/api::v1::picture-test', ['ember-qunit'], function (ember_qunit) {
-
-  'use strict';
-
-  ember_qunit.moduleForModel("api::v1::picture", {
-    // Specify the other units that are required for this test.
-    needs: []
-  });
-
-  ember_qunit.test("it exists", function (assert) {
-    var model = this.subject();
-    // var store = this.store();
-    assert.ok(!!model);
-  });
-
-});
-define('mylab/tests/unit/models/api::v1::picture-test.jshint', function () {
-
-  'use strict';
-
-  module('JSHint - unit/models');
-  test('unit/models/api::v1::picture-test.js should pass jshint', function() { 
-    ok(true, 'unit/models/api::v1::picture-test.js should pass jshint.'); 
-  });
-
-});
 define('mylab/tests/unit/models/attachment-test', ['ember-qunit'], function (ember_qunit) {
 
   'use strict';
@@ -5365,11 +5344,11 @@ define('mylab/tests/unit/models/document-test.jshint', function () {
   });
 
 });
-define('mylab/tests/unit/models/version-test', ['ember-qunit'], function (ember_qunit) {
+define('mylab/tests/unit/models/picture-test', ['ember-qunit'], function (ember_qunit) {
 
   'use strict';
 
-  ember_qunit.moduleForModel("version", {
+  ember_qunit.moduleForModel("api::v1::picture", {
     // Specify the other units that are required for this test.
     needs: []
   });
@@ -5381,13 +5360,53 @@ define('mylab/tests/unit/models/version-test', ['ember-qunit'], function (ember_
   });
 
 });
+define('mylab/tests/unit/models/picture-test.jshint', function () {
+
+  'use strict';
+
+  module('JSHint - unit/models');
+  test('unit/models/picture-test.js should pass jshint', function() { 
+    ok(true, 'unit/models/picture-test.js should pass jshint.'); 
+  });
+
+});
+define('mylab/tests/unit/models/version-test', ['ember-qunit'], function (ember_qunit) {
+
+  'use strict';
+
+  ember_qunit.moduleForModel("version", {
+    // Specify the other units that are required for this test.
+    needs: ["model:document", "model:picture", "model:attachment", "model:thumbnail"],
+    beforeEach: function beforeEach() {
+      this.store = this.store();
+      this.version = this.subject({ id: 74576484, name: "version_name", createdAt: "2015-02-01" });
+    } });
+
+  ember_qunit.test("its valid", function (assert) {
+    assert.ok(this.version);
+    assert.ok(this.version instanceof DS.Model);
+    assert.equal(this.version.get("name"), "version_name");
+    assert.equal(this.version.get("pdfUrl"), "http://mylab.dev/api/v1/versions/74576484.pdf");
+    assert.equal(this.version.get("nameForSelectMenu"), "Version 'version_name' (created February 1, 2015)");
+  });
+
+  ember_qunit.test("it belongs to a document", function (assert) {
+    var _this = this;
+    Ember.run(function () {
+      _this.version.set("document", _this.store.createRecord("document", { name: "document_name" }));
+    });
+    assert.ok(this.version.get("document"));
+    assert.ok(this.version.get("document") instanceof DS.Model);
+  });
+
+});
 define('mylab/tests/unit/models/version-test.jshint', function () {
 
   'use strict';
 
   module('JSHint - unit/models');
   test('unit/models/version-test.js should pass jshint', function() { 
-    ok(true, 'unit/models/version-test.js should pass jshint.'); 
+    ok(false, 'unit/models/version-test.js should pass jshint.\nunit/models/version-test.js: line 23, col 97, Missing semicolon.\nunit/models/version-test.js: line 22, col 3, \'Ember\' is not defined.\n\n2 errors'); 
   });
 
 });

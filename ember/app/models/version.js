@@ -13,7 +13,7 @@ export default DS.Model.extend({
   document: DS.belongsTo('document'),
 
   pdfUrl: function(){
-    return config.proxy+config.apiHost+"/versions/"+this.get('id')+".pdf"
+    return config.proxy+config.apiHost+"/versions/"+this.get('id')+".pdf";
   }.property('id'),
 
   nameForSelectMenu: function(){
