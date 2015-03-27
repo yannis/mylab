@@ -13,9 +13,9 @@
 /tmp
 
 # dependencies
-ember/node_modules
-ember/dist
-ember/bower_components
+ember/node_modules/*
+ember/dist/*
+ember/bower_components/*
 /vendor/*
 
 # misc

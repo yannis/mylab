@@ -5891,7 +5891,7 @@ catch(err) {
 if (runningTests) {
   require("mylab/tests/test-helper");
 } else {
-  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.c4cf8e08"});
+  require("mylab/app")["default"].create({"name":"mylab","version":"0.0.0.f8c771fb"});
 }
 
 /* jshint ignore:end */
