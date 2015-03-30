@@ -4890,7 +4890,7 @@ button.close {
 .document-html {
   margin: 1em auto;
   overflow: auto; }
-  .document-html p {
+  .document-html code, .document-html pre {
     word-break: break-all; }
 
 html {

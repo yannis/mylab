@@ -1182,7 +1182,9 @@ define('mylab/routes/versions/index', ['exports', 'ember'], function (exports, E
 
     redirect: function redirect(model, transition) {
       var lastCreatedVersion = model.sortBy("createdAt:desc").get("firstObject");
-      return this.transitionTo("versions.show", lastCreatedVersion);
+      if (lastCreatedVersion) {
+        return this.transitionTo("versions.show", lastCreatedVersion);
+      }
     }
   });
 
@@ -1195,9 +1197,7 @@ define('mylab/routes/versions/new', ['exports', 'ember'], function (exports, Emb
     model: function model(params) {
       var document = this.modelFor("documents.show");
       var version = this.store.createRecord("version");
-      document.get("versions").then(function (versions) {
-        versions.pushObject(version);
-      });
+      document.get("versions").pushObject(version);
       return version;
     }
   });

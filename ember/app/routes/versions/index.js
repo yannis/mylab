@@ -8,7 +8,10 @@ export default Ember.Route.extend({
 
   redirect: function(model, transition) {
     var lastCreatedVersion = model.sortBy('createdAt:desc').get('firstObject');
-    return this.transitionTo('versions.show', lastCreatedVersion);
+    if (lastCreatedVersion) {
+      return this.transitionTo('versions.show', lastCreatedVersion);
+    }
+
   }
 });
 
