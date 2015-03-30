@@ -3547,7 +3547,7 @@ define('mylab/templates/versions', ['exports'], function (exports) {
           var el1 = dom.createElement("span");
           dom.setAttribute(el1,"class","glyphicon glyphicon-plus");
           dom.appendChild(el0, el1);
-          var el1 = dom.createTextNode("\n        Create version from Word file\n");
+          var el1 = dom.createTextNode("\n        Import from Word file\n");
           dom.appendChild(el0, el1);
           return el0;
         },
