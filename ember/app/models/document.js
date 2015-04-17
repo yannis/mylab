@@ -4,6 +4,7 @@ import Picturable from './picturable';
 export default DS.Model.extend({
   name: DS.attr('string'),
 
+  category: DS.belongsTo('category', { async: true }),
   pictures: DS.hasMany('picture', { async: true }),
   attachments: DS.hasMany('attachment', { async: true }),
 
@@ -25,6 +26,11 @@ export default DS.Model.extend({
 
   lastVersion: function(){
     return this.get('sortedVersions').get('firstObject');
-  }.property('sortedVersions')
+  }.property('sortedVersions'),
+
+  lastUpdatedVersion: function(){
+    var sortedVersions = this.get('versions').sortBy('updatedAt:desc');
+    return this.get('sortedVersions').get('firstObject');
+  }.property('versions.@each.updatedAt')
 
 });

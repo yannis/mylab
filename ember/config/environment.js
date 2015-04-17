@@ -7,7 +7,7 @@ module.exports = function(environment) {
     baseURL: '/',
     locationType: 'auto',
     apiHost: "api/v1",
-    proxy: "http://mylab.dev/",
+    proxy: "http://localhost:3000/",
 
     contentSecurityPolicy: {
       'default-src': "'self' mylab.dev",
@@ -32,7 +32,15 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['simple-auth'] = {
+    authorizer: 'simple-auth-authorizer:devise',
+    store: 'simple-auth-session-store:local-storage'
+  };
 
+  ENV['simple-auth-devise'] = {
+    serverTokenEndpoint: ENV.apiHost+"/users/sign_in",
+    // resourceName: 'account'
+  };
 
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
@@ -40,6 +48,7 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
+    proxy: "http://mylab.dev/",
     ENV.apiHost = "api/v1";
   }
 

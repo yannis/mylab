@@ -1,0 +1,16 @@
+<form {{action "save" on="submit"}}>
+  <div class="form-group">
+    <label>
+      Name
+      {{input value=model.name classNames="form-control document-form-name"}}
+    </label>
+  </div>
+  <div class="form-group">
+    <label>
+      Email
+      {{input value=model.email classNames="form-control document-form-email"}}
+    </label>
+  </div>
+  <input type="submit" value="Save" class="btn btn-success">
+  <button {{action "cancel"}} class="btn btn-default">cancel</button>
+</form>

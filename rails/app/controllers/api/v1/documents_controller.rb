@@ -46,7 +46,7 @@ class API::V1::DocumentsController < ApplicationController
 private
 
   def sanitizer
-    params.require(:document).permit(:name)
+    params.require(:document).permit(:name, :category_id)
     # if current_user.present?
     #   if current_user.admin?
     #     params.require(:user).permit!

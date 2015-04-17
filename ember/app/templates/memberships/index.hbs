@@ -1,0 +1,22 @@
+<div class='row'>
+  <div class="col-md-8">
+    <h1>
+      Memberships
+    </h1>
+    {{#if model}}
+      <ul class="list-group">
+        {{#each membership in model}}
+          <li class="list-group-item">
+            {{link-to membership.user.name "users.show" membership.user}} ({{membership.role}})
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>
+        No memberships yet.
+        {{link-to "Go create one" "memberships.new"}}
+      </p>
+    {{/if}}
+  </div>
+</div>
+

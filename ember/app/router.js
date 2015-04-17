@@ -6,6 +6,15 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('login');
+  this.route('logout');
+
+  this.resource('categories', function() {
+    this.route('new');
+    this.route('show', { path: ':category_id' });
+    this.route('edit', { path: ':category_id/edit' });
+  });
+  // this.resource('API::V1::picture', function() {});
   this.resource('documents', {path: '/documents'}, function() {
     this.route('show', {path: ':document_id'}, function(){
       this.resource('versions', function() {
@@ -37,8 +46,23 @@ Router.map(function() {
 
     this.route('new');
   });
-
-  this.resource('API::V1::picture', function() {});
+  this.resource('memberships', function() {
+    this.route('show', {path: ':membership_id'});
+    this.route('new');
+    this.route('edit', {path: ':membership_id/edit'});
+  });
+  this.resource('users', function() {
+    this.route('show', {
+      path: ':user_id'
+    });
+    this.route('new');
+    this.route('edit', {path: ':user_id/edit'});
+  });
+  this.resource('groups', function() {
+    this.route('show', {path: ':group_id'});
+    this.route('new');
+    this.route('edit', {path: ':group_id/edit'});
+  });
 });
 
 export default Router;

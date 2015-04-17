@@ -1,7 +1,7 @@
 FactoryGirl.define do
   factory :picture do
-    model_type "MyString"
-model_id 1
+    # data fixture_file_upload("#{fixture_path}/terrys-signature.jpg", 'image/jpg')
+    image Rack::Test::UploadedFile.new(File.join(Rails.root, "spec/fixtures", "terrys-signature.jpg"), 'image/jpg')
+    association :picturable, factory: :document
   end
-
 end

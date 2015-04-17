@@ -42,39 +42,10 @@ class API::V1::PicturesController < ApplicationController
     respond_with @picture.destroy
   end
 
-protected
-
-  def convert_to_upload(image)
-      image_data = split_base64(image[:data])
-
-      temp_img_file = Tempfile.new("data_uri-upload")
-      temp_img_file.binmode
-      temp_img_file << Base64.decode64(image_data[:data])
-      temp_img_file.rewind
-
-      ActionDispatch::Http::UploadedFile.new({
-        filename: image[:filename],
-        type: image[:type],
-        tempfile: temp_img_file
-      })
-  end
-
-  def split_base64(uri_str)
-      if uri_str.match(%r{^data:(.*?);(.*?),(.*)$})
-          uri = Hash.new
-          uri[:type] = $1 # "image/gif"
-          uri[:encoder] = $2 # "base64"
-          uri[:data] = $3 # data string
-          uri[:extension] = $1.split('/')[1] # "gif"
-          return uri
-      end
-  end
-
-
 private
 
   def sanitizer
-    params[:picture][:image] = convert_to_upload(params[:picture][:image])
+    params[:picture][:image] = Upload.new(params[:picture][:image]).convert
     params.require(:picture).permit(:image, :picturable_id, :picturable_type)
     # if current_user.present?
     #   if current_user.admin?

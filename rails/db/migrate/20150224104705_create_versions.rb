@@ -1,8 +1,8 @@
 class CreateVersions < ActiveRecord::Migration
   def change
     create_table :versions do |t|
-      t.string :name
-      t.text :content_md
+      t.string :name, null: false
+      t.text :content_md, null: false
       t.text :content_html
       t.integer :document_id, null: false
 

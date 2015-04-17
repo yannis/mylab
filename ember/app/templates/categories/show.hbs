@@ -1,0 +1,29 @@
+<div class="col-md-12">
+  <h3>
+    Category '{{model.name}}'
+    <small>
+      <div class="btn-group" role="group" aria-label="...">
+        {{#link-to 'categories.edit' model classNames='btn btn-primary' title="Edit this category" data-toggle="tooltip" data-placement="top"}}
+          <span class="glyphicon glyphicon-edit"></span>
+        {{/link-to}}
+        <a href="#" {{action "delete" model}} class="btn btn-danger" title="Destroy this category" data-toggle="tooltip" data-placement="top">
+          <span class="glyphicon glyphicon-trash"></span>
+        </a>
+      </div>
+    </small>
+  </h3>
+  {{#if model.documents}}
+    <h4>Documents</h4>
+    <ul class='list-group'>
+      {{#each document in model.documents }}
+        <li class="list-group-item">
+          {{link-to document.name 'documents.show' document}}
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <div class='well'>
+      No documents
+    </div>
+  {{/if}}
+</div>

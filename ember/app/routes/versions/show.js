@@ -17,11 +17,7 @@ export default Ember.Route.extend({
       var _this = this;
       if (window.confirm("Are you sure you want to delete this version?")) {
         version.destroyRecord().then(function(v) {
-          _this.flashMessage({
-            content: 'Version deleted',
-            duration: 2000,
-            type: 'success', // String
-          });
+          Ember.get(_this, 'flashMessages').success('Version deleted');
           _this.transitionTo('documents.show', v.get('document'));
         });
       }

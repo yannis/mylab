@@ -1,0 +1,39 @@
+<div class='row'>
+  <div class="col-md-8">
+    <h1>
+      Group '{{model.name}}'
+      <small>
+        <div class="btn-group" role="group" aria-label="...">
+          {{#link-to 'groups.edit' model classNames='btn btn-primary' title="Edit this group" data-toggle="tooltip" data-placement="top"}}
+            <span class="glyphicon glyphicon-edit"></span>
+          {{/link-to}}
+          <a href="#" {{action "delete" model}} class="btn btn-danger" title="Destroy this group" data-toggle="tooltip" data-placement="top">
+            <span class="glyphicon glyphicon-trash"></span>
+          </a>
+        </div>
+      </small>
+    </h1>
+    {{#if model.memberships}}
+      <h2>Group memberships</h2>
+      <ul class="list-group">
+        {{#each membership in model.memberships}}
+          <li class="list-group-item clearfix">
+            {{link-to membership.user.name "users.show" membership.user}} ({{membership.role}})
+            <div class="btn-group pull-right" role="group" aria-label="...">
+              {{#link-to 'memberships.edit' membership classNames='btn btn-primary btn-sm' title="Edit this membership" data-toggle="tooltip" data-placement="top"}}
+                <span class="glyphicon glyphicon-edit"></span>
+              {{/link-to}}
+              <a href="#" {{action "deleteMembership" membership}} class="btn btn-danger btn-sm" title="Destroy this membership" data-toggle="tooltip" data-placement="top">
+                <span class="glyphicon glyphicon-trash"></span>
+              </a>
+            </div>
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>
+        No memberships yet.
+      </p>
+    {{/if}}
+  </div>
+</div>

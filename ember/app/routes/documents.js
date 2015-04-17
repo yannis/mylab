@@ -1,8 +1,9 @@
 import Ember from 'ember';
 // import RouteMixin from 'ember-cli-pagination/remote/route-mixin';
 
-export default Ember.Route.extend({
+import AuthenticatedRouteMixin from 'simple-auth/mixins/authenticated-route-mixin';
 
+export default Ember.Route.extend(AuthenticatedRouteMixin, {
 
   // optional. default is 10
   // perPage: 10,
