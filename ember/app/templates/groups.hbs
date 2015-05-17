@@ -3,6 +3,23 @@
     {{#link-to 'groups.new' classNames='btn btn-primary' title="Create a new group"}}
       <span class="glyphicon glyphicon-plus"></span> Create a new group
     {{/link-to}}
+    <h1>
+      Groups
+    </h1>
+    {{#if model}}
+      <ul class="list-group">
+        {{#each group in model}}
+          <li class="list-group-item">
+            {{link-to group.name "groups.show" group}}
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <p>
+        No groups yet.
+        {{link-to "Go create one" "groups.new"}}
+      </p>
+    {{/if}}
   </div>
   <div class="col-sm-12 col-md-8 col-lg-10">
     {{outlet}}

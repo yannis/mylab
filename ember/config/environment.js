@@ -11,7 +11,7 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       'default-src': "'self' mylab.dev",
-      'img-src': "'self' mylab.dev data:",
+      'img-src': "'self' mylab.dev data: www.gravatar.com",
       'script-src': "'self' 'unsafe-inline' 'unsafe-eval' 10.1.3.34:35729",
       'font-src': "'self'",
       'connect-src': "'self' mylab.dev",
@@ -62,6 +62,8 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+
+    ENV['simple-auth'].store = 'simple-auth-session-store:ephemeral';
   }
 
   if (environment === 'production') {

@@ -1,14 +1,12 @@
 class API::V1::SessionsController < Devise::SessionsController
 
   skip_before_filter :authenticate_user_from_token!
-
+  skip_before_filter :authenticate_api_v1_user!
 
   def create
     user = User.find_for_database_authentication(email: params[:user][:user_email])
-    Rails.logger.debug "params[:user][:password]: #{params[:user][:password]}"
     if user && user.valid_password?(params[:user][:password])
       user.update_attributes authentication_token: Devise.friendly_token
-      Rails.logger.debug "user: #{user.name}"
       sign_in user
 
       data = {

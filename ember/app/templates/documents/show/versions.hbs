@@ -1,0 +1,33 @@
+<div class='row'>
+  <div class="col-md-6">
+    <form>
+      <div class="form-group">
+        {{select-2
+          content=arrangedContent
+          value=currentVersion
+          optionLabelPath="nameForSelectMenu"
+          placeholder="Select a version"
+        }}
+      </div>
+    </form>
+  </div>
+  <div class="col-md-6">
+    <div class="btn-group pull-right" role="group" aria-label="...">
+      {{#link-to 'documents.show.versions.new' classNames='btn btn-success' title="Create a new version for this document" data-toggle="tooltip" data-placement="top"}}
+        <span class="glyphicon glyphicon-plus"></span>
+      {{/link-to}}
+      {{#file-picker
+        accept=".docx,.doc"
+        fileLoaded="createVersionFromWordFile"
+        readAs="readAsDataURL"
+        progress="true"
+        preview=false
+        classNames="btn btn-default"
+      }}
+        <span class="glyphicon glyphicon-plus"></span>
+        New version from .doc
+      {{/file-picker}}
+    </div>
+  </div>
+  {{outlet}}
+</div>

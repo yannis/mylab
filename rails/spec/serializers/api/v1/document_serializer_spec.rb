@@ -15,7 +15,7 @@ RSpec.describe API::V1::DocumentSerializer, type: :serializer do
 
     it { expect(subject['name']).to eql "a document" }
     it { expect(subject['id']).to eql(document.id) }
-    it { expect(subject['category_id']).to eql category.id.to_s }
+    it { expect(subject['category_id']).to eql category.id }
     it { expect(subject['version_ids']).to match_array [121125] }
   end
 end

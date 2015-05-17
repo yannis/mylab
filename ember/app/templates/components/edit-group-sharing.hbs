@@ -1,0 +1,16 @@
+{{#if isEditing }}
+  {{group.name}}
+  {{#if isShared }}
+    <button class="btn btn-danger" {{action "destroySharing" group}}>
+      <span class="glyphicon glyphicon-trash"></span>
+    </button>
+  {{else}}
+    <button class="btn btn-primary" {{action "addSharing" group}}>
+      <span class="glyphicon glyphicon-plus"></span>
+    </button>
+  {{/if}}
+{{else}}
+  {{#if isShared }}
+    {{link-to group.name 'groups.show' group}}
+  {{/if}}
+{{/if}}

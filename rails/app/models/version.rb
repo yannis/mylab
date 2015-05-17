@@ -1,5 +1,7 @@
 class Version < ActiveRecord::Base
   belongs_to :document, inverse_of: :versions
+  belongs_to :creator, class_name: "User", foreign_key: "creator_id"
+  belongs_to :updater, class_name: "User", foreign_key: "updater_id"
 
   validates_presence_of :content_md
   validates_presence_of :name

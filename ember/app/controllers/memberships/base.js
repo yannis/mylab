@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
   categories: function(){
-    return this.get('model.store').find('document');
+    return this.get('model.store').find('category');
   },
   actions: {
     save: function() {

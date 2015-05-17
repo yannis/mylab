@@ -6,22 +6,29 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  rootURL: '/documents';
   this.route('login');
   this.route('logout');
+  this.route('accept_invitation', { path: 'accept_invitation/:id/:token' });
+  this.route('decline_invitation', { path: 'decline_invitation/:id/:token' });
 
-  this.resource('categories', function() {
+  this.route('categories', function() {
     this.route('new');
     this.route('show', { path: ':category_id' });
     this.route('edit', { path: ':category_id/edit' });
   });
-  // this.resource('API::V1::picture', function() {});
-  this.resource('documents', {path: '/documents'}, function() {
-    this.route('show', {path: ':document_id'}, function(){
-      this.resource('versions', function() {
 
-        this.route('show', {
-          path: ':version_id'
-        });
+  this.route('documents', {path: 'documents'}, function() {
+    this.route('shared');
+    this.route('edit', {
+      path: ':document_id/edit'
+    });
+    this.route('new');
+    this.route('show', {path: ':document_id'}, function(){
+
+      this.route('versions', function() {
+
+        this.route('show', {path: ':version_id'});
 
         this.route('edit', {
           path: ':version_id/edit'
@@ -39,29 +46,42 @@ Router.map(function() {
 
       });
     });
-
-    this.route('edit', {
-      path: ':document_id/edit'
-    });
-
-    this.route('new');
   });
-  this.resource('memberships', function() {
+  this.route('memberships', function() {
     this.route('show', {path: ':membership_id'});
     this.route('new');
     this.route('edit', {path: ':membership_id/edit'});
   });
-  this.resource('users', function() {
+  this.route('users', function() {
     this.route('show', {
       path: ':user_id'
+    }, function() {
+      this.route('invitations', function() {
+        this.route('show', {
+          path: ':invitation_id'
+        });
+        this.route('edit', {path: ':invitation_id/edit'});
+      });
     });
     this.route('new');
     this.route('edit', {path: ':user_id/edit'});
   });
-  this.resource('groups', function() {
-    this.route('show', {path: ':group_id'});
+  this.route('groups', function() {
+    this.route('show', {path: ':group_id'}, function(){
+      this.route('documents', {path: 'documents'});
+      this.route('invitations', function() {
+        this.route('new');
+      });
+      this.route('memberships', function() {
+        this.route('show', {path: ':membership_id'});
+        this.route('new');
+        this.route('edit', {path: ':membership_id/edit'});
+      });
+    });
     this.route('new');
     this.route('edit', {path: ':group_id/edit'});
+
+
   });
 });
 

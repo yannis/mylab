@@ -36,6 +36,11 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
         });
       }
     },
+    deleteSharing: function(sharing){
+      if (window.confirm("Are you sure you want to remove this sharing?")) {
+        sharing.destroyRecord();
+      }
+    },
     deletePicture: function(picture){
       if (window.confirm("Are you sure you want to delete this picture?")) {
         picture.destroyRecord();

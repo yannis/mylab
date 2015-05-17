@@ -1,0 +1,19 @@
+<h1>Hi <%= @invited.name %>,</h1>
+
+<p>
+  <%= @inviter.name %> invited
+  you to participate to group “<%= @group.name %>” in myLab.
+</p>
+<p>
+  In this group, you will have access to documents shared by your colleagues.
+</p>
+<p> Please sign in your account and review the invitation here: <%= link_to "http://#{ENV['MAILER_HOST']}", "http://#{ENV['MAILER_HOST']}" %></p>
+<p>To <strong>accept</strong> this invitation, please follow this link: <%= link_to "http://#{ENV['MAILER_HOST']}/accept_invitation/#{@invitation.id}/#{@invitation.token}", "http://#{ENV['MAILER_HOST']}/accept_invitation/#{@invitation.id}/#{@invitation.token}" %>
+</p>
+<p>To <strong>decline</strong> this invitation, please follow this link: <%= link_to "http://#{ENV['MAILER_HOST']}/decline_invitation/#{@invitation.id}/#{@invitation.token}", "http://#{ENV['MAILER_HOST']}/decline_invitation/#{@invitation.id}/#{@invitation.token}" %>
+</p>
+<p>
+  <em>
+    The myLab Team
+  </em>
+</p>

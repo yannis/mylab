@@ -1,0 +1,5 @@
+{{#if errors.length}}
+  {{#each error in errors}}
+    <p class="text-danger">{{attribute}} {{error.message}}</p>
+  {{/each}}
+{{/if}}

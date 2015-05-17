@@ -50,6 +50,6 @@ export default Ember.Controller.extend({
         var fileTypes = ['application/msword', 'text/plain', 'text/richtext', 'text/richtext', 'application/rtf', 'application/pdf'];
         return $.inArray(file.type, fileTypes) >= 0;
       };
-    }
+    },
   }
 });

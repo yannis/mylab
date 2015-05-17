@@ -1,9 +1,10 @@
 class API::V1::DocumentsController < ApplicationController
 
+  load_and_authorize_resource :document, param_method: :sanitizer
+
   respond_to :json
 
   def index
-    @documents = Document.all
     meta = {}
     if params[:search].present? && params[:search] != 'undefined'
       @documents = @documents.where("LOWER(documents.name) LIKE ?", "%#{params[:search].downcase}%")
@@ -18,12 +19,10 @@ class API::V1::DocumentsController < ApplicationController
   end
 
   def show
-    @document = Document.find params[:id]
     respond_with @document, serializer: API::V1::DocumentSerializer
   end
 
   def create
-    @document = Document.new sanitizer
     if @document.save
       render json: @document, serializer: API::V1::DocumentSerializer, status: :created
     else
@@ -32,13 +31,11 @@ class API::V1::DocumentsController < ApplicationController
   end
 
   def update
-    @document = Document.find params[:id]
     @document.update_attributes sanitizer
     respond_with @document
   end
 
   def destroy
-    @document = Document.find params[:id]
     respond_with @document.destroy
   end
 
@@ -47,13 +44,6 @@ private
 
   def sanitizer
     params.require(:document).permit(:name, :category_id)
-    # if current_user.present?
-    #   if current_user.admin?
-    #     params.require(:user).permit!
-    #   elsif current_user.member?
-    #     params.require(:user).permit(:id, :name, :description)
-    #   end
-    # end
   end
 
 end

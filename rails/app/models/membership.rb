@@ -22,6 +22,10 @@ class Membership < ActiveRecord::Base
     where(group: group)
   end
 
+  def self.of_user(user)
+    where(user: user)
+  end
+
   def destroy
     unless can_destroy
       raise "Cannot destroy the last membership of a group"

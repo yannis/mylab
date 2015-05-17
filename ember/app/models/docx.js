@@ -1,8 +1,7 @@
 import DS from 'ember-data';
+import Abilities from '../lib/abilities';
 
-var attr = DS.attr;
-
-export default DS.Model.extend({
-  doc: attr('raw'),
+export default DS.Model.extend(Abilities, {
+  doc: DS.attr('raw'),
   markdown: DS.attr('string')
 });

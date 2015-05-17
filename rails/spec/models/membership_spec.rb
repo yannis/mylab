@@ -28,6 +28,9 @@ RSpec.describe Membership, type: :model do
     it {expect(Membership.of_group(group1)).to match_array [group1_basic_membership, group1_admin_membership]}
     it {expect(Membership.of_group(group1)).to match_array group1.memberships}
 
+    it {expect(Membership.of_user(user1)).to match_array [group1_admin_membership, group2_admin_membership]}
+    it {expect(Membership.of_user(user2)).to match_array [group1_basic_membership, group2_basic_membership]}
+
     it { expect{group1_basic_membership.destroy}.to_not raise_error}
     it { expect{group1_admin_membership.destroy}.to raise_error "Cannot destroy the last membership of a group"}
 

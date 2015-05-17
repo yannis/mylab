@@ -28,6 +28,8 @@ module Mylab
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
 
+    config.autoload_paths << Rails.root.join('lib')
+
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
@@ -40,5 +42,11 @@ module Mylab
     config.action_dispatch.default_headers = {
       'Access-Control-Allow-Origin' => '*'
     }
+
+    config.active_job.queue_adapter = :sidekiq
+
+    config.action_mailer.default_url_options = { host: ENV['MAILER_HOST'] }
+    Rails.application.routes.default_url_options[:host] = ENV['MAILER_HOST']
+
   end
 end

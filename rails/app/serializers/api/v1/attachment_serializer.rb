@@ -1,7 +1,7 @@
 class API::V1::AttachmentSerializer < ActiveModel::Serializer
+  include GetModelPermissions
+  get_model_permissions_and :id, :name, :attachable_id, :attachable_type, :url
   embed :ids
-
-  attributes :id, :name, :attachable_id, :attachable_type, :url
 
   def url
     # byebug

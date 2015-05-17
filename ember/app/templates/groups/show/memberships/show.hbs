@@ -1,0 +1,56 @@
+<div class='row'>
+  <div class="col-md-8">
+    <div class='row'>
+      <div class="col-md-12">
+        <h1>
+          {{#if model.category}}
+            <small>
+              {{model.category.name}}
+            </small><br>
+          {{/if}}
+          {{model.name}}</h1>
+        {{outlet}}
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="btn-group" role="group" aria-label="...">
+      {{#link-to 'documents.edit' model classNames='btn btn-primary' title="Edit this document" data-toggle="tooltip" data-placement="top"}}
+        <span class="glyphicon glyphicon-edit"></span>
+      {{/link-to}}
+      <a href="#" {{action "delete" model}} class="btn btn-danger" title="Destroy this document">
+        <span class="glyphicon glyphicon-trash"></span>
+      </a>
+      {{#file-picker
+        accept=".jpg,.jpeg,.gif,.png,.pdf,.doc,.docx,.pages"
+        fileLoaded="fileLoaded"
+        readAs="readAsDataURL"
+        progress=true
+        preview=false
+        classNames="btn btn-default"
+      }}
+        <span class="glyphicon glyphicon-plus"></span>
+        Drag/click to upload a file
+      {{/file-picker}}
+    </div>
+    {{#if model.attachments}}
+      <div class="col-md-12">
+        <h3>Attachments {{model.attachments.length}}</h3>
+        <ul>
+          {{#each attachment in model.attachments}}
+            {{view "attachments/show" attachment}}
+          {{/each}}
+        </ul>
+      </div>
+    {{/if}}
+    {{#if model.pictures}}
+      <div class="col-md-12">
+        <h3>Pictures ({{model.pictures.length}})</h3>
+        {{#each picture in model.pictures}}
+          {{view "pictures/show" picture}}
+        {{/each}}
+      </div>
+    {{/if}}
+  </div>
+</div>
+

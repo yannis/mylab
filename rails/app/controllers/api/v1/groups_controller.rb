@@ -1,19 +1,19 @@
 class API::V1::GroupsController < ApplicationController
 
-  respond_to :json
+  load_and_authorize_resource :group, param_method: :sanitizer
 
   def index
-    @groups = Group.all
     respond_with @groups, each_serializer: API::V1::GroupSerializer
   end
 
   def show
-    @group = Group.find params[:id]
     respond_with @group, serializer: API::V1::GroupSerializer
   end
 
   def create
-    @group = Group.new sanitizer
+    if @group.memberships.of_user(current_user).blank?
+      @group.memberships << Membership.new(user: current_user, role: "admin")
+    end
     if @group.save
       render json: @group, serializer: API::V1::GroupSerializer, status: :created
     else
@@ -22,13 +22,11 @@ class API::V1::GroupsController < ApplicationController
   end
 
   def update
-    @group = Group.find params[:id]
     @group.update_attributes sanitizer
     respond_with @group
   end
 
   def destroy
-    @group = Group.find params[:id]
     respond_with @group.destroy
   end
 
@@ -36,7 +34,7 @@ class API::V1::GroupsController < ApplicationController
 private
 
   def sanitizer
-    params.require(:group).permit(:name)
+    params.require(:group).permit(:name, {memberships_attributes: [:role, :user_id]})
   end
 
 end

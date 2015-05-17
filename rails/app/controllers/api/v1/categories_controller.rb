@@ -1,9 +1,10 @@
 class API::V1::CategoriesController < ApplicationController
 
+  load_and_authorize_resource :category, param_method: :sanitizer
+
   respond_to :json
 
   def index
-    @categories = Category.all
     meta = {}
     if params[:search].present? && params[:search] != 'undefined'
       @categories = @categories.where("LOWER(categories.name) LIKE ?", "%#{params[:search].downcase}%")
@@ -18,12 +19,10 @@ class API::V1::CategoriesController < ApplicationController
   end
 
   def show
-    @category = Category.find params[:id]
     respond_with @category, serializer: API::V1::CategorySerializer
   end
 
   def create
-    @category = Category.new sanitizer
     if @category.save
       render json: @category, serializer: API::V1::CategorySerializer, status: :created
     else
@@ -32,13 +31,11 @@ class API::V1::CategoriesController < ApplicationController
   end
 
   def update
-    @category = Category.find params[:id]
     @category.update_attributes sanitizer
     respond_with @category
   end
 
   def destroy
-    @category = Category.find params[:id]
     respond_with @category.destroy
   end
 

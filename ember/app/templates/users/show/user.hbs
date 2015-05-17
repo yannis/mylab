@@ -1,0 +1,55 @@
+<div class="col-md-12">
+  <h3>
+    {{gravatar-image
+      email=model.email
+      alt=model.name
+      size=50
+      defaultImage='identicon'
+      class='img-circle'
+      secure=false
+      title=model.name
+    }}
+    {{model.name}}
+    <small>
+      ({{model.email}})
+      <div class="btn-group" role="group" aria-label="...">
+        {{#if model.updatable }}
+          {{#link-to 'users.edit' model classNames='btn btn-primary' title="Edit this user" data-toggle="tooltip" data-placement="top"}}
+            <span class="glyphicon glyphicon-edit"></span>
+          {{/link-to}}
+        {{/if}}
+        {{#if model.destroyable }}
+          <a href="#" {{action "delete" model}} class="btn btn-danger" title="Destroy this user" data-toggle="tooltip" data-placement="top">
+            <span class="glyphicon glyphicon-trash"></span>
+          </a>
+        {{/if}}
+      </div>
+    </small>
+  </h3>
+  {{#if model.memberships}}
+    <h3>You are both part of these groups ({{model.memberships.length}})</h3>
+    <ul class='list-group'>
+      {{#each membership in model.memberships }}
+        <li class="list-group-item clearfix">
+          {{link-to membership.group.name 'groups.show' membership.group}} ({{membership.role}})
+          <div class="btn-group pull-right" role="group" aria-label="...">
+            {{#if membership.updatable }}
+              {{#link-to 'memberships.edit' membership classNames='btn btn-primary btn-sm' title="Edit this membership" data-toggle="tooltip" data-placement="top"}}
+                <span class="glyphicon glyphicon-edit"></span>
+              {{/link-to}}
+            {{/if}}
+            {{#if membership.destroyable }}
+              <a href="#" {{action "delete" membership}} class="btn btn-danger btn-sm" title="Destroy this membership" data-toggle="tooltip" data-placement="top">
+                <span class="glyphicon glyphicon-trash"></span>
+              </a>
+            {{/if}}
+          </div>
+        </li>
+      {{/each}}
+    </ul>
+  {{else}}
+    <div class='well'>
+      No memberships
+    </div>
+  {{/if}}
+</div>

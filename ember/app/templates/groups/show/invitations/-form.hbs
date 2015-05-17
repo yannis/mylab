@@ -1,0 +1,21 @@
+<form {{action "save" on="submit"}}>
+  <div class="form-group {{if model.errors.name 'has-error' 'has-no-error'}}">
+    <label class="control-label">
+      {{select-2
+        content=users
+        value=model.invited
+        optionLabelPath="name"
+        placeholder="Select a user"
+        allowClear=true
+      }}
+    </label>
+    {{form-errors model=model attribute='invited'}}
+    <label class="control-label">
+      or enter her/his email address
+      {{input value=model.email classNames='form-control'}}
+    </label>
+    {{form-errors model=model attribute='email'}}
+  </div>
+  <input type="submit" value="Invite" class="btn btn-success">
+  <button {{action "cancel"}} class="btn btn-default">cancel</button>
+</form>

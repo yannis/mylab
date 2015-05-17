@@ -1,0 +1,109 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Shared with groups ({{model.sharings.length}})</h3>
+  </div>
+  <ul class="list-group">
+    {{#each group in sharedGroups}}
+      <li class="list-group-item">
+        {{#if isEditing }}
+          <label>
+            <input class="" type="checkbox"  checked="true" {{action "destroySharing" group}} />
+            {{group.name}}
+          </label>
+        {{else}}
+          {{link-to group.name 'groups.show' group}}
+        {{/if}}
+      </li>
+    {{/each}}
+  </ul>
+  {{#if isEditing }}
+    <ul class="list-group">
+      {{#each group in availableGroups}}
+        <li class="list-group-item">
+          <label>
+            <input class="" type="checkbox"  {{action "addSharing" group}} />
+            {{group.name}}
+          </label>
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+  <div class="panel-footer">
+    {{#if isEditing}}
+      <button class="btn btn-default" {{action "doneEditingSharings"}}>
+        Done
+      </button>
+    {{else}}
+      {{#if session.currentUser.canCreateSharing }}
+        <button class="btn btn-primary" {{action "editSharings"}}>
+          <span class="glyphicon glyphicon-edit"></span>
+        </button>
+      {{/if}}
+    {{/if}}
+  </div>
+</div>
+
+{{!--
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3>Shared with groups ({{model.sharings.length}})</h3>
+  </div>
+  <ul class="list-group">
+    {{#unless sharedGroups}}
+      {{#unless sharingsInEdition}}
+        <li class="list-group-item">
+          Not shared with any group
+        </li>
+      {{/unless}}
+    {{/unless}}
+    {{#each group in sharedGroups}}
+      paf |
+      {{edit-group-sharing
+        sharable=model
+        group=group
+        isEditing=sharingsInEdition
+        tagName="li"
+        classNames="list-group-item"
+      }}
+    {{/each}}
+    {{#if sharingsInEdition}}
+      {{#each group in availableGroups}}
+        {{edit-group-sharing
+          sharable=model
+          group=group
+          isEditing=sharingsInEdition
+          tagName="li"
+          classNames="list-group-item"
+        }}
+      {{/each}}
+    {{/if}}
+  </ul>
+
+{{!--   <ul class="list-group">
+    {{#each group in groups}}
+      {{edit-group-sharing
+        sharable=model
+        group=group
+        isEditing=sharingsInEdition
+        tagName="li"
+        classNames="list-group-item"
+      }}
+    {{/each}}
+  </ul> --}}
+  {{!-- {{#if model.updatable }}
+    <div class="panel-footer">
+      {{#if sharingsInEdition}}
+        <button class="btn btn-default" {{action "doneEditingSharings"}}>
+          Done
+        </button>
+      {{else}}
+        {{#if session.currentUser.canCreateSharing }}
+          <button class="btn btn-primary" {{action "editSharings"}}>
+            <span class="glyphicon glyphicon-edit"></span>
+          </button>
+        {{/if}}
+      {{/if}}
+    </div>
+  {{/if}}
+</div>
+ --}}

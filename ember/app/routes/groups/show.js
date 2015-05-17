@@ -1,6 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+
+  model: function(params){
+    var groups = this.modelFor('groups');
+    return groups.findBy('id', params.group_id);
+  },
+
   actions: {
     delete: function(group){
       var _this = this;

@@ -1,13 +1,16 @@
 import DS from 'ember-data';
 import Picturable from './picturable';
+import Sharable from './sharable';
+import Abilities from '../lib/abilities';
 
-export default DS.Model.extend({
+export default Sharable.extend(Abilities, {
   name: DS.attr('string'),
+  createdAt: DS.attr('date'),
 
+  user: DS.belongsTo('user', { async: true }),
   category: DS.belongsTo('category', { async: true }),
   pictures: DS.hasMany('picture', { async: true }),
   attachments: DS.hasMany('attachment', { async: true }),
-
   versions: DS.hasMany('version', { async: true }),
 
   nameForSelectMenu: function(){

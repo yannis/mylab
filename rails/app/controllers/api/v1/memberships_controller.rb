@@ -1,19 +1,19 @@
 class API::V1::MembershipsController < ApplicationController
 
+  load_and_authorize_resource :user
+  load_and_authorize_resource :membership, through: [:user], shallow: true, param_method: :sanitizer
+
   respond_to :json
 
   def index
-    @memberships = Membership.all
     respond_with @memberships, each_serializer: API::V1::MembershipSerializer
   end
 
   def show
-    @membership = Membership.find params[:id]
     respond_with @membership, serializer: API::V1::MembershipSerializer
   end
 
   def create
-    @membership = Membership.new sanitizer
     if @membership.save
       render json: @membership, serializer: API::V1::MembershipSerializer, status: :created
     else
@@ -22,13 +22,11 @@ class API::V1::MembershipsController < ApplicationController
   end
 
   def update
-    @membership = Membership.find params[:id]
     @membership.update_attributes sanitizer
     respond_with @membership
   end
 
   def destroy
-    @membership = Membership.find params[:id]
     respond_with @membership.destroy
   end
 

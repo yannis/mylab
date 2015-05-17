@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h1>Documents</h1>
+    {{#if model}}
+      <ul class="list-group">
+        {{#each sharing in model}}
+          <li class="list-group-item clearfix">
+            {{link-to sharing.sharable.name "documents.show" sharing.sharable}}
+          </li>
+        {{/each}}
+      </ul>
+    {{else}}
+      <div class="well">
+        No available documents in this group yet
+      </div>
+    {{/if}}
+  </div>
+  <div class="col-sm-12">
+    {{outlet}}
+  </div>
+</div>

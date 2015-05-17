@@ -1,8 +1,9 @@
 import DS from 'ember-data';
 import Ember from 'ember';
+import Abilities from '../lib/abilities';
 // import Thumbnail from './thumbnail'
 
-export default DS.Model.extend({
+export default DS.Model.extend(Abilities, {
   image: DS.attr('raw'),
   filename: DS.attr('string'),
   thumbnails: DS.hasMany('thumbnail'),

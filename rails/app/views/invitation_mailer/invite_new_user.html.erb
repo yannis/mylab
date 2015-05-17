@@ -1,0 +1,20 @@
+<h1>Hi <%= @invited_email %>,</h1>
+
+<p>
+  <%= @inviter.name %> invited you to <%= link_to "http://#{ENV['MAILER_HOST']}", "http://#{ENV['MAILER_HOST']}" %>, a document sharing application.
+</p>
+<p>
+  By accepting this invitation and creating your account in myLab, you'll have access to documents shared by your colleagues.
+</p>
+<p>
+  To accept this invitation, please create an account here: <%= link_to "http://#{ENV['MAILER_HOST']}/accept_invitation/#{@invitation.id}/#{@invitation.token}", "http://#{ENV['MAILER_HOST']}/accept_invitation/#{@invitation.id}/#{@invitation.token}" %>
+</p>
+<p>
+  To decline this invitation, please follow this link: <%= link_to "http://#{ENV['MAILER_HOST']}/decline_invitation/#{@invitation.id}/#{@invitation.token}", "http://#{ENV['MAILER_HOST']}/decline_invitation/#{@invitation.id}/#{@invitation.token}" %>
+</p>
+
+<p>
+  <em>
+    The myLab Team
+  </em>
+</p>

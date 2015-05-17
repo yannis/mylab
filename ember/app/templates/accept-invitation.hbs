@@ -1,0 +1,16 @@
+<h1>Welcome on myLab</h1>
+<p class='lead'>First, create an account</p>
+<form {{action "save" on="submit"}}>
+  <div class="form-group {{if user.errors.name 'has-error' 'has-no-error'}}">
+    <label>
+      {{input value=user.name classNames="form-control" placeholder="Enter your full name"}}
+    </label>
+    {{form-errors model=user attribute='name'}}
+    <label>
+      {{input value=user.password type="password" classNames="form-control" placeholder="Password"}}
+    </label>
+    {{form-errors model=user attribute='password'}}
+  </div>
+  <input type="submit" value="Create your account" class="btn btn-success">
+  <button {{action "cancel"}} class="btn btn-default">cancel</button>
+</form>

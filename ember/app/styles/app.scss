@@ -9,7 +9,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 .footer {
   position: absolute;
@@ -21,13 +21,13 @@ body {
   text-align: center;
 
   .container {
-    padding: 0 15px;
+    // padding: 0 15px;
   }
   .container .text-muted {
     margin: 20px 0;
   }
 }
 
-textarea.form-control {
-  height: 20em;
-}
+// textarea.form-control {
+//   height: 20em;
+// }

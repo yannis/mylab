@@ -4,6 +4,174 @@
 		"selected_items":
 		[
 			[
+				"f",
+				"function"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"authe",
+				"authenticate_user"
+			],
+			[
+				"ex",
+				"exception"
+			],
+			[
+				"sh",
+				"show_pdf"
+			],
+			[
+				"creae",
+				"created"
+			],
+			[
+				"crea",
+				"created"
+			],
+			[
+				"gro",
+				"group_ids"
+			],
+			[
+				"group",
+				"group_ids"
+			],
+			[
+				"match",
+				"match_array"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"docu",
+				"document1"
+			],
+			[
+				"sha",
+				"sharings"
+			],
+			[
+				"aut",
+				"autosize"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"shar",
+				"sharing"
+			],
+			[
+				"is",
+				"isEditing"
+			],
+			[
+				"shara",
+				"sharables"
+			],
+			[
+				"inter",
+				"be_interacting_with"
+			],
+			[
+				"intera",
+				"interact_with"
+			],
+			[
+				"user",
+				"user1"
+			],
+			[
+				"create",
+				"created"
+			],
+			[
+				"cancrea",
+				"can_create_sharing"
+			],
+			[
+				"ca",
+				"can_create_category"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"share",
+				"share_with"
+			],
+			[
+				"mem",
+				"membership_count"
+			],
+			[
+				"meme",
+				"membership"
+			],
+			[
+				"mat",
+				"match_array"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"cacreate",
+				"can_create_version"
+			],
+			[
+				"cancreate",
+				"can_create_membership"
+			],
+			[
+				"Meme",
+				"membership"
+			],
+			[
+				"adm",
+				"admin_memberships_count"
+			],
+			[
+				"g1",
+				"group1_basic_membership"
+			],
+			[
+				"admi",
+				"admin_membership"
+			],
+			[
+				"Mem",
+				"membership"
+			],
+			[
+				"M",
+				"Membership"
+			],
+			[
+				"cre",
+				"create"
+			],
+			[
+				"controllr",
+				"controllers"
+			],
+			[
+				"us",
+				"user"
+			],
+			[
+				"bf",
+				"bef	before"
+			],
+			[
 				"bas",
 				"basicDocument"
 			],
@@ -20,20 +188,8 @@
 				"resource"
 			],
 			[
-				"ca",
-				"category"
-			],
-			[
-				"is",
-				"is_expected"
-			],
-			[
 				"su",
 				"subject	subject(:subject) { described_class.new }"
-			],
-			[
-				"docu",
-				"document_id"
 			],
 			[
 				"vers",
@@ -132,10 +288,6 @@
 				"function"
 			],
 			[
-				"sel",
-				"selected"
-			],
-			[
 				"reloa",
 				"reloadDocument"
 			],
@@ -152,16 +304,8 @@
 				"document"
 			],
 			[
-				"crea",
-				"created_at"
-			],
-			[
 				"ran",
 				"rand_date"
-			],
-			[
-				"fu",
-				"function"
 			],
 			[
 				"sort",
@@ -192,10 +336,6 @@
 				"title"
 			],
 			[
-				"f",
-				"fun	Function"
-			],
-			[
 				"panel",
 				"panel-heading"
 			],
@@ -220,20 +360,12 @@
 				"allele1"
 			],
 			[
-				"ex",
-				"exp	expect(subject).to something"
-			],
-			[
 				"allel",
 				"alleles_animal"
 			],
 			[
 				"alle",
 				"alleles_animal"
-			],
-			[
-				"cate",
-				"categories"
 			],
 			[
 				"categ",
@@ -382,1712 +514,40 @@
 			[
 				"fa",
 				"faq_category"
-			],
-			[
-				"tag",
-				"tag_type"
-			],
-			[
-				"ania",
-				"animal_count"
-			],
-			[
-				"mode",
-				"model_type"
-			],
-			[
-				"i",
-				"icon"
-			],
-			[
-				"link",
-				"link_to"
-			],
-			[
-				"pre",
-				"previous_and_next"
-			],
-			[
-				"ta",
-				"tag"
-			],
-			[
-				"pop",
-				"popup"
-			],
-			[
-				"ite",
-				"item"
-			],
-			[
-				"aption",
-				"a_options"
-			],
-			[
-				"li",
-				"li_options"
-			],
-			[
-				"drop",
-				"dropdown"
-			],
-			[
-				"bt",
-				"btnGroup"
-			],
-			[
-				"dropme",
-				"dropdownMenu"
-			],
-			[
-				"analit",
-				"animal_link_items"
-			],
-			[
-				"oth",
-				"other_menu"
-			],
-			[
-				"ala",
-				"alarm"
-			],
-			[
-				"te",
-				"technique"
-			],
-			[
-				"tec",
-				"technique"
-			],
-			[
-				"minim",
-				"addMinimizeButton"
-			],
-			[
-				"or",
-				"originalWidth"
-			],
-			[
-				"my",
-				"my_class"
-			],
-			[
-				"pan",
-				"panelHeading"
-			],
-			[
-				"M",
-				"MyPopup"
-			],
-			[
-				"data",
-				"dataHeight"
-			],
-			[
-				"lab",
-				"laboratory"
-			],
-			[
-				"name",
-				"name_and_locus"
-			],
-			[
-				"cage",
-				"cage_tokens"
-			],
-			[
-				"dead",
-				"dead_on"
-			],
-			[
-				"contr",
-				"form-control"
-			],
-			[
-				"ob",
-				"object_type"
-			],
-			[
-				"Fur",
-				"FurColor"
-			],
-			[
-				"dea",
-				"deathcauses"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "mylab.sublime-project",
-			"settings":
-			{
-				"buffer_size": 550,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/Gemfile",
-			"settings":
-			{
-				"buffer_size": 1386,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/Guardfile",
-			"settings":
-			{
-				"buffer_size": 1310,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/application.yml",
-			"settings":
-			{
-				"buffer_size": 1918,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/database.yml",
-			"settings":
-			{
-				"buffer_size": 2909,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/devise.rb",
-			"settings":
-			{
-				"buffer_size": 12848,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/styles/app.scss",
-			"settings":
-			{
-				"buffer_size": 624,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/styles/models/document.sass",
-			"settings":
-			{
-				"buffer_size": 143,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/package.json",
-			"settings":
-			{
-				"buffer_size": 1591,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/components/markdown-to-html.js",
-			"settings":
-			{
-				"buffer_size": 289,
-				"line_ending": "Unix",
-				"name": "import Ember from 'ember';"
-			}
-		},
-		{
-			"file": "rails/config/secrets.yml",
-			"settings":
-			{
-				"buffer_size": 148,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/figaro.rb",
-			"settings":
-			{
-				"buffer_size": 72,
-				"line_ending": "Unix",
-				"name": "Figaro.require_keys(\"pusher_app_id\", \"pusher_key\","
-			}
-		},
-		{
-			"file": "rails/config/initializers/filter_parameter_logging.rb",
-			"settings":
-			{
-				"buffer_size": 218,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/setup_mail.rb",
-			"settings":
-			{
-				"buffer_size": 326,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/application.rb",
-			"settings":
-			{
-				"buffer_size": 1659,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/environments/development.rb",
-			"settings":
-			{
-				"buffer_size": 1014,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/environments/production.rb",
-			"settings":
-			{
-				"buffer_size": 2799,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 731,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/config/environment.js",
-			"settings":
-			{
-				"buffer_size": 1685,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/router.js",
-			"settings":
-			{
-				"buffer_size": 1099,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/adapters/application.js",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/documents.rb",
-			"settings":
-			{
-				"buffer_size": 120,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/document_spec.rb",
-			"settings":
-			{
-				"buffer_size": 220,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/version_spec.rb",
-			"settings":
-			{
-				"buffer_size": 767,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/docx_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1411,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/spec_helper.rb",
-			"settings":
-			{
-				"buffer_size": 4094,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/rails_helper.rb",
-			"settings":
-			{
-				"buffer_size": 2421,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/document.rb",
-			"settings":
-			{
-				"buffer_size": 449,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/seeds.rb",
-			"settings":
-			{
-				"buffer_size": 728,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/inflections.rb",
-			"settings":
-			{
-				"buffer_size": 731,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 719,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/documents_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1591,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/version.rb",
-			"settings":
-			{
-				"buffer_size": 696,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/migrate/20150224104705_create_versions.rb",
-			"settings":
-			{
-				"buffer_size": 324,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/serializers/api/v1/document_serializer.rb",
-			"settings":
-			{
-				"buffer_size": 182,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/serializers/api/v1/category_serializer_spec.rb",
-			"settings":
-			{
-				"buffer_size": 604,
-				"line_ending": "Unix",
-				"name": "require 'rails_helper'"
-			}
-		},
-		{
-			"file": "rails/spec/serializers/api/v1/document_serializer_spec.rb",
-			"settings":
-			{
-				"buffer_size": 775,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/serializers/api/v1/version_serializer_spec.rb",
-			"settings":
-			{
-				"buffer_size": 654,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/serializers/api/v1/picture_serializer.rb",
-			"settings":
-			{
-				"buffer_size": 1059,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/serializers/api/v1/attachment_serializer.rb",
-			"settings":
-			{
-				"buffer_size": 202,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents.hbs",
-			"settings":
-			{
-				"buffer_size": 618,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents/index.hbs",
-			"settings":
-			{
-				"buffer_size": 54,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions.hbs",
-			"settings":
-			{
-				"buffer_size": 978,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/index.hbs",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents.js",
-			"settings":
-			{
-				"buffer_size": 1305,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents/index.js",
-			"settings":
-			{
-				"buffer_size": 374,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/categories/index.js",
-			"settings":
-			{
-				"buffer_size": 355,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions/index.js",
-			"settings":
-			{
-				"buffer_size": 373,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/document.js",
-			"settings":
-			{
-				"buffer_size": 1135,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents/show.js",
-			"settings":
-			{
-				"buffer_size": 550,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents/show/index.js",
-			"settings":
-			{
-				"buffer_size": 229,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions/new.js",
-			"settings":
-			{
-				"buffer_size": 276,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions/duplicate.js",
-			"settings":
-			{
-				"buffer_size": 473,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions.js",
-			"settings":
-			{
-				"buffer_size": 321,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/routes/documents/versions/show-test.js",
-			"settings":
-			{
-				"buffer_size": 286,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents/show.hbs",
-			"settings":
-			{
-				"buffer_size": 1698,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/show.hbs",
-			"settings":
-			{
-				"buffer_size": 1306,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/edit.hbs",
-			"settings":
-			{
-				"buffer_size": 425,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/yannis/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents/edit.hbs",
-			"settings":
-			{
-				"buffer_size": 60,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents/-form.hbs",
-			"settings":
-			{
-				"buffer_size": 579,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/components/file-upload.hbs",
-			"settings":
-			{
-				"buffer_size": 10,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/components/file-upload-test.js",
-			"settings":
-			{
-				"buffer_size": 497,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/documents/new.hbs",
-			"settings":
-			{
-				"buffer_size": 51,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/vendor/ember/ember-testing.js",
-			"settings":
-			{
-				"buffer_size": 45193,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/vendor/ember/ember.js",
-			"settings":
-			{
-				"buffer_size": 1629934,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/utils/date-helpers-test.js",
-			"settings":
-			{
-				"buffer_size": 247,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents/new.js",
-			"settings":
-			{
-				"buffer_size": 143,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/documents/edit.js",
-			"settings":
-			{
-				"buffer_size": 357,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/documents/base.js",
-			"settings":
-			{
-				"buffer_size": 442,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "import Ember from 'ember';\n\nexport default Ember.Controller.extend({\n  actions: {\n    save: function() {\n      var _this = this;\n      this.get('model').save().then(function(category) {\n        Ember.get(_this, 'flashMessages').success('Category saved!');\n        _this.transitionToRoute('categories.show', category);\n      });\n    }\n  }\n});\n",
-			"file": "ember/app/controllers/categories/base.js",
-			"file_size": 498,
-			"file_write_time": 1427812826000000,
-			"settings":
-			{
-				"buffer_size": 342,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/documents/edit.js",
-			"settings":
-			{
-				"buffer_size": 243,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/categories/edit.js",
-			"settings":
-			{
-				"buffer_size": 246,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/documents/show.js",
-			"settings":
-			{
-				"buffer_size": 1705,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/documents/new.js",
-			"settings":
-			{
-				"buffer_size": 219,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "import DocumentsBaseController from './base';\n\nexport default DocumentsBaseController.extend({\n  actions: {\n    cancel: function() {\n      this.model.rollback();\n      this.transitionToRoute('documents');\n    }\n  }\n});\n",
-			"settings":
-			{
-				"buffer_size": 219,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/app.js",
-			"settings":
-			{
-				"buffer_size": 687,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/application.js",
-			"settings":
-			{
-				"buffer_size": 417,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/csrf_controller.rb",
-			"settings":
-			{
-				"buffer_size": 165,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/controllers/api/documents_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/controllers/api/v1/documents_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1036,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/* global require, module */\n\nvar EmberApp = require('ember-cli/lib/broccoli/ember-app');\n\nvar app = new EmberApp();\n\n\n// Put the bootstrap fonts in the place that the bootstrap css expects to find them.\nvar pickFiles = require('broccoli-static-compiler');\nvar mergeTrees = require('broccoli-merge-trees');\n\nselect2: {\n  includeAssets: false\n}\n\n// Use `app.import` to add additional libraries to the generated\n// output files.\n//\n// If you need to use different assets in different\n// environments, specify an object as the first parameter. That\n// object's keys should be the environment name and the values\n// should be the asset to use in that environment.\n//\n// If the library that you are including contains AMD or ES6\n// modules that you would like to import into your application\n// please specify an object with the list of modules as keys\n// along with the exports of each module as its value.\n\napp.import('bower_components/select2/select2.css');\napp.import('bower_components/select2/select2-bootstrap.css');\n\napp.import('bower_components/moment/moment.js');\n// app.import('bower_components/select2/select2.js');\n\napp.import('vendor/showdown/extensions/table.js');\napp.import('vendor/showdown/extensions/github.min.js');\n\napp.import('bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js');\n\nvar select2Images = pickFiles('bower_components/select2', {\n  srcDir: '/',\n  files: ['**/*.gif', '**/*.png'],\n  destDir: '/assets'\n});\n\nvar bootstrapFonts = pickFiles('bower_components/bootstrap-sass-official/assets/fonts/bootstrap', {\n  srcDir: '/',\n  destDir: '/fonts/bootstrap'\n});\n\nmodule.exports = mergeTrees([app.toTree(), select2Images, bootstrapFonts], {overwrite: true});\n\n\n",
-			"file": "ember/Brocfile.js",
-			"file_size": 1707,
-			"file_write_time": 1427807575000000,
-			"settings":
-			{
-				"buffer_size": 1703,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/application.hbs",
-			"settings":
-			{
-				"buffer_size": 1950,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/index.html",
-			"settings":
-			{
-				"buffer_size": 614,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/dist/assets/mylab.js",
-			"settings":
-			{
-				"buffer_size": 268496,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/dist/assets/mylab.css",
-			"settings":
-			{
-				"buffer_size": 154808,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/documents.js",
-			"settings":
-			{
-				"buffer_size": 356,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/helpers/api/v1/versions_helper.rb",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/versions.rb",
-			"settings":
-			{
-				"buffer_size": 207,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/serializers/api/v1/version_serializer.rb",
-			"settings":
-			{
-				"buffer_size": 155,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/version.js",
-			"settings":
-			{
-				"buffer_size": 649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/versions_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1728,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/utils/date-helpers.js",
-			"settings":
-			{
-				"buffer_size": 107,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/helpers/formatted-date.js",
-			"settings":
-			{
-				"buffer_size": 296,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/-form.hbs",
-			"settings":
-			{
-				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/categories/-form.hbs",
-			"settings":
-			{
-				"buffer_size": 307,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions/base.js",
-			"settings":
-			{
-				"buffer_size": 505,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/docx.rb",
-			"settings":
-			{
-				"buffer_size": 215,
-				"line_ending": "Unix",
-				"name": "class Docx"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions/edit.js",
-			"settings":
-			{
-				"buffer_size": 242,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions/new.js",
-			"settings":
-			{
-				"buffer_size": 216,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions/duplicate.js",
-			"settings":
-			{
-				"buffer_size": 216,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/new.hbs",
-			"settings":
-			{
-				"buffer_size": 425,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/versions/duplicate.hbs",
-			"settings":
-			{
-				"buffer_size": 429,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions.js",
-			"settings":
-			{
-				"buffer_size": 1259,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/versions/index.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/components/fil-u-upload-component-test.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/bower_components/ember/ember-template-compiler.js",
-			"settings":
-			{
-				"buffer_size": 217911,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/bower_components/ember-uploader/dist/ember-uploader.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/migrate/20150227155705_create_pictures.rb",
-			"settings":
-			{
-				"buffer_size": 331,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/picture.rb",
-			"settings":
-			{
-				"buffer_size": 124,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/picturable.js",
-			"settings":
-			{
-				"buffer_size": 118,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/picture.js",
-			"settings":
-			{
-				"buffer_size": 818,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/thumbnail.js",
-			"settings":
-			{
-				"buffer_size": 394,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/transforms/raw.js",
-			"settings":
-			{
-				"buffer_size": 323,
-				"line_ending": "Unix",
-				"name": "// app/transforms/raw.js"
-			}
-		},
-		{
-			"file": "ember/app/models/docx.js",
-			"settings":
-			{
-				"buffer_size": 138,
-				"line_ending": "Unix",
-				"name": "import DS from 'ember-data';"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/pictures_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1581,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/attachments_controller.rb",
-			"settings":
-			{
-				"buffer_size": 2812,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/picture_spec.rb",
-			"settings":
-			{
-				"buffer_size": 179,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/bower_components/ember-uploader/packages/ember-uploader/lib/uploader.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/views/pictures/show.js",
-			"settings":
-			{
-				"buffer_size": 99,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/views/attachments/show.js",
-			"settings":
-			{
-				"buffer_size": 102,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/attachments/show.hbs",
-			"settings":
-			{
-				"buffer_size": 235,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/uploaders/image_uploader.rb",
-			"settings":
-			{
-				"buffer_size": 1820,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/attachment.rb",
-			"settings":
-			{
-				"buffer_size": 156,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/uploaders/file_uploader.rb",
-			"settings":
-			{
-				"buffer_size": 1535,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/uploaders/docx_uploader.rb",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/migrate/20150303150403_create_attachments.rb",
-			"settings":
-			{
-				"buffer_size": 370,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/attachment.js",
-			"settings":
-			{
-				"buffer_size": 331,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/migrate/20150217132434_create_documents.rb",
-			"settings":
-			{
-				"buffer_size": 180,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/components/select-2.hbs",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions/edit.js",
-			"settings":
-			{
-				"buffer_size": 632,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/versions/show.js",
-			"settings":
-			{
-				"buffer_size": 764,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/pictures/show.hbs",
-			"settings":
-			{
-				"buffer_size": 729,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/serializers/picture.js",
-			"settings":
-			{
-				"buffer_size": 162,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/carrierwave.rb",
-			"settings":
-			{
-				"buffer_size": 140,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/components/zero-clipboard.js",
-			"settings":
-			{
-				"buffer_size": 276,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<button class=\"close\" data-dismiss=\"alert\"></button>\n{{#unless message.timed}}\n  <button type=\"button\" class=\"close\" data-test=\"flash-button\" aria-label=\"Close\">\n    <span aria-hidden=\"true\">&times;</span>\n  </button>\n{{/unless}}\n{{{content}}}\n{{yield}}\n\n",
-			"file": "ember/app/templates/components/flash-message.hbs",
-			"file_size": 255,
-			"file_write_time": 1426844555000000,
-			"settings":
-			{
-				"buffer_size": 255,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/components/flash-message.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix",
-				"name": "import FlashMessageComponent from 'ember-flash-mes"
-			}
-		},
-		{
-			"file": "ember/app/templates/components/zero-clipboard.hbs",
-			"settings":
-			{
-				"buffer_size": 97,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/.nvmrc",
-			"settings":
-			{
-				"buffer_size": 7,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/mime_types.rb",
-			"settings":
-			{
-				"buffer_size": 203,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/config/initializers/wicked_pdf.rb",
-			"settings":
-			{
-				"buffer_size": 154,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/views/layouts/pdf.html.erb",
-			"settings":
-			{
-				"buffer_size": 222,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "@import \"bootstrap-sprockets\"\n@import \"bootstrap\"\n\ntable\n  @extend .table, .table-striped\n\ncode, pre\n  word-break: break-all\n\n",
-			"file": "rails/app/assets/stylesheets/pdf.sass",
-			"file_size": 121,
-			"file_write_time": 1427463483000000,
-			"settings":
-			{
-				"buffer_size": 126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/components/message-queue.hbs",
-			"settings":
-			{
-				"buffer_size": 214,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/.ember-cli",
-			"settings":
-			{
-				"buffer_size": 311,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/docxes_controller.rb",
-			"settings":
-			{
-				"buffer_size": 310,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/upload.rb",
-			"settings":
-			{
-				"buffer_size": 797,
-				"line_ending": "Unix",
-				"name": "class Upload"
-			}
-		},
-		{
-			"file": "rails/spec/factories/docxes.rb",
-			"settings":
-			{
-				"buffer_size": 122,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/controllers/api/v1/docxes_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 70294,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/controllers/api/v1/versions_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 94,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/bower.json",
-			"settings":
-			{
-				"buffer_size": 645,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/pdfs/versions/show.pdf.haml",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/views/api/v1/versions/show.pdf.erb",
-			"settings":
-			{
-				"buffer_size": 71,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/vendor/showdown/extensions/table.js",
-			"settings":
-			{
-				"buffer_size": 3239,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/initializers/tooltip.js",
-			"settings":
-			{
-				"buffer_size": 312,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/initializers/flashmessage.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/models/version-test.js",
-			"settings":
-			{
-				"buffer_size": 1078,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/unit/controllers/versions-test.js",
-			"settings":
-			{
-				"buffer_size": 363,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/vendor/ember-qunit/lib/test.js",
-			"settings":
-			{
-				"buffer_size": 617,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/controllers/api/v1/pictures_controller_spec.rb",
-			"settings":
-			{
-				"buffer_size": 33833,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/picture.js",
-			"settings":
-			{
-				"buffer_size": 67,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/pictures.rb",
-			"settings":
-			{
-				"buffer_size": 302,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/attachment_spec.rb",
-			"settings":
-			{
-				"buffer_size": 185,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/attachments.rb",
-			"settings":
-			{
-				"buffer_size": 243,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/category_spec.rb",
-			"settings":
-			{
-				"buffer_size": 294,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/models/category.rb",
-			"settings":
-			{
-				"buffer_size": 171,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/categories.rb",
-			"settings":
-			{
-				"buffer_size": 84,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/serializers/api/v1/category_serializer.rb",
-			"settings":
-			{
-				"buffer_size": 125,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/models/category.js",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/categories.hbs",
-			"settings":
-			{
-				"buffer_size": 612,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/categories/new.js",
-			"settings":
-			{
-				"buffer_size": 222,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/controllers/categories/edit.js",
-			"settings":
-			{
-				"buffer_size": 246,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/categories/new.hbs",
-			"settings":
-			{
-				"buffer_size": 52,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/categories/edit.hbs",
-			"settings":
-			{
-				"buffer_size": 70,
-				"line_ending": "Unix",
-				"name": "<h1>New category</h1>"
-			}
-		},
-		{
-			"file": "ember/app/routes/categories/new.js",
-			"settings":
-			{
-				"buffer_size": 148,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/categories.js",
-			"settings":
-			{
-				"buffer_size": 135,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/api/v1/categories_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1586,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/categories/show.hbs",
-			"settings":
-			{
-				"buffer_size": 945,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/initializers/flash-message.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/routes/categories/show.js",
-			"settings":
-			{
-				"buffer_size": 415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/acceptance/documents/show-test.js",
-			"settings":
-			{
-				"buffer_size": 1734,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/acceptance/documents/index-test.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/acceptance/documents/new-test.js",
-			"settings":
-			{
-				"buffer_size": 931,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/app/controllers/application_controller.rb",
-			"settings":
-			{
-				"buffer_size": 366,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/tests/helpers/start-app.js",
-			"settings":
-			{
-				"buffer_size": 522,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "ember/app/templates/login.hbs",
-			"settings":
-			{
-				"buffer_size": 872,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/db/migrate/20150401152554_devise_create_users.rb",
-			"settings":
-			{
-				"buffer_size": 1463,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "class User < ActiveRecord::Base\n  # Include default devise modules. Others available are:\n  # :confirmable, :lockable, :timeoutable and :omniauthable\n  devise :database_authenticatable, :registerable, :recoverable, :rememberable, :trackable, :validatable, :lockable, lock_strategy: :none, unlock_strategy: :none\n\n  before_save :ensure_authentication_token\n\n  validates :name, presence:  true, length:  {within:  3..100}\n  validates :email, presence:  true, uniqueness:  true, length:  {within:  6..100}\n\n  def ensure_authentication_token\n    if authentication_token.blank?\n      self.authentication_token = generate_authentication_token\n    end\n  end\n\n  def self.active(activ)\n    if activ == true\n      where(\"users.locked_at IS NULL OR users.locked_at >= ?\", Time.current)\n    elsif activ == false\n      where(\"users.locked_at < ?\", Time.current)\n    end\n  end\n\n  def email=(value)\n    write_attribute :email, (value ? value.downcase : nil)\n  end\nend\n",
-			"file": "rails/app/models/user.rb",
-			"file_size": 268,
-			"file_write_time": 1427901954000000,
-			"settings":
-			{
-				"buffer_size": 953,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/models/user_spec.rb",
-			"settings":
-			{
-				"buffer_size": 1043,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "rails/spec/factories/users.rb",
-			"settings":
-			{
-				"buffer_size": 57,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 107.0,
 		"selected_items":
 		[
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
 			[
 				"handle",
 				"Set Syntax: Handlebars"
 			],
 			[
-				"ha",
+				"han",
 				"Set Syntax: Handlebars"
 			],
 			[
-				"han",
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"rails",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"ha",
 				"Set Syntax: Handlebars"
 			],
 			[
@@ -2139,10 +599,6 @@
 				"Set Syntax: Ruby Haml"
 			],
 			[
-				"html",
-				"Set Syntax: HTML"
-			],
-			[
 				"scss",
 				"Set Syntax: SCSS"
 			],
@@ -2189,10 +645,6 @@
 			[
 				"cuc",
 				"Set Syntax: Cucumber Steps"
-			],
-			[
-				"rails",
-				"Set Syntax: Ruby on Rails"
 			],
 			[
 				"steps",
@@ -2272,134 +724,134 @@
 	},
 	"file_history":
 	[
-		"/Users/yannis/railsapps/mylab/ember/server/mocks/documents.js",
-		"/Users/yannis/Library/Application Support/Sublime Text 2/Packages/HTML/HTML.tmLanguage",
-		"/Users/yannis/railsapps/mylab/rails/app/serializers/api/v1/paginated_document_serializer.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/show.index.js",
-		"/Users/yannis/railsapps/mylab/rails/app/assets/stylesheets/pdf.scss",
-		"/Users/yannis/railsapps/mylab/rails/app/assets/stylesheets/pdf.sass",
-		"/Users/yannis/railsapps/mylab/ember/app/components/select-2.js",
-		"/Users/yannis/railsapps/mylab/ember/app/initializers/tooltip.js",
-		"/Users/yannis/railsapps/mylab/rails/app/views/api/v1/versions/show.html.erb",
+		"/Users/yannis/railsapps/mylab/rails/spec/controllers/api/v1/users_controller_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/controllers/api/v1/categories_controller_spec.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/memberships/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/users/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/users/edit.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/memberships/-form.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/memberships/edit.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/memberships/show.js",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/memberships/new.js",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/memberships/edit.js",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/memberships/index.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/groups/new.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/groups/edit.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/groups/base.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/groups/edit.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/groups/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/groups/-form.hbs",
+		"/Users/yannis/railsapps/mylab/rails/spec/support/my_matchers.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/views/api/v1/users/index.html.erb",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/login.js",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/session_store.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/users.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/groups/index.hbs",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/devise_token_auth.rb",
+		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150410142601_devise_token_auth_create_users.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/factories/users.rb",
+		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150401152554_devise_create_users.rb",
+		"/Users/yannis/railsapps/mylab/ember/tests/helpers/start-app.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/acceptance/documents/new-test.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/acceptance/documents/index-test.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/acceptance/documents/show-test.js",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/categories/show.js",
+		"/Users/yannis/railsapps/mylab/ember/app/initializers/flash-message.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/categories/show.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/categories/new.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/categories/edit.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/categories/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/categories/edit.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/categories.hbs",
+		"/Users/yannis/railsapps/mylab/rails/spec/models/category_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/factories/pictures.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/picture.js",
+		"/Users/yannis/railsapps/mylab/rails/spec/controllers/api/v1/pictures_controller_spec.rb",
+		"/Users/yannis/railsapps/mylab/ember/vendor/ember-qunit/lib/test.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/controllers/versions-test.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/models/version-test.js",
+		"/Users/yannis/railsapps/mylab/ember/app/initializers/flashmessage.js",
 		"/Users/yannis/railsapps/mylab/ember/vendor/showdown/extensions/table.js",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/versions/index.js",
-		"/Users/yannis/railsapps/mylab/rails/app/views/api/v1/versions/show.pdf.erb",
 		"/Users/yannis/railsapps/mylab/rails/app/pdfs/versions/show.pdf.haml",
+		"/Users/yannis/railsapps/mylab/rails/spec/controllers/api/v1/versions_controller_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/support/devise.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/controllers/api/v1/docxes_controller_spec.rb",
 		"/Users/yannis/railsapps/mylab/rails/spec/factories/docxes.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/initializers/ember-flash-messages.js",
-		"/Users/yannis/railsapps/mylab/ember/bower.json",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/edit.js",
-		"/Users/yannis/railsapps/mylab/ember/config/ember-flash-messages.js",
-		"/Users/yannis/railsapps/mylab/rails/app/templates/api/v1/versions/show.pdf.erb",
-		"/Users/yannis/railsapps/mylab/rails/app/views/api/v1/versions/show.pdf.haml",
-		"/Users/yannis/railsapps/mylab/rails/app/pdfs:versions/show.pdf.haml",
-		"/Users/yannis/railsapps/mylab/ember/app/controllers/versions/show.js",
-		"/Users/yannis/railsapps/mylab/ember/app/utils/file-helpers.js",
-		"/Users/yannis/railsapps/mylab/ember/app/utils/markdown-helpers.js",
+		"/Users/yannis/railsapps/mylab/rails/app/models/upload.rb",
+		"/Users/yannis/railsapps/mylab/ember/.ember-cli",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/components/message-queue.hbs",
+		"/Users/yannis/railsapps/mylab/rails/app/assets/stylesheets/pdf.sass",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/wicked_pdf.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/mime_types.rb",
+		"/Users/yannis/railsapps/mylab/ember/.nvmrc",
 		"/Users/yannis/railsapps/mylab/ember/app/templates/components/zero-clipboard.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/versions/index.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/versions/show.js",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/versions/new.js",
+		"/Users/yannis/railsapps/mylab/ember/app/components/flash-message.js",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/carrierwave.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/serializers/picture.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/pictures/show.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/components/select-2.hbs",
+		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150303150403_create_attachments.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/uploaders/docx_uploader.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/uploaders/file_uploader.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/uploaders/image_uploader.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/attachments/show.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/views/attachments/show.js",
+		"/Users/yannis/railsapps/mylab/ember/app/views/pictures/show.js",
+		"/Users/yannis/railsapps/mylab/ember/bower_components/ember-uploader/packages/ember-uploader/lib/uploader.js",
+		"/Users/yannis/railsapps/mylab/rails/spec/models/picture_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/controllers/api/v1/attachments_controller.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/models/picture.rb",
+		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150227155705_create_pictures.rb",
+		"/Users/yannis/railsapps/mylab/ember/bower_components/ember-uploader/dist/ember-uploader.js",
+		"/Users/yannis/railsapps/mylab/ember/bower_components/ember/ember-template-compiler.js",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/components/fil-u-upload-component-test.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/versions/index.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/versions/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/versions/duplicate.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/versions/new.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/versions/edit.js",
+		"/Users/yannis/railsapps/mylab/rails/app/models/docx.rb",
+		"/Users/yannis/railsapps/mylab/rails/app/helpers/api/v1/versions_helper.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/index.html",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/routes/groups-test.js",
+		"/Users/yannis/railsapps/mylab/rails/app/controllers/api/v1/csrf_controller.rb",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/utils/date-helpers-test.js",
+		"/Users/yannis/railsapps/mylab/ember/vendor/ember/ember-testing.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/new.hbs",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/components/file-upload-test.js",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/components/file-upload.hbs",
+		"/Users/yannis/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/yannis/railsapps/mylab/ember/app/templates/versions/edit.hbs",
+		"/Users/yannis/railsapps/mylab/ember/tests/unit/routes/documents/versions/show-test.js",
+		"/Users/yannis/railsapps/mylab/ember/app/routes/versions/duplicate.js",
 		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/index.js",
 		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/index.hbs",
-		"/Users/yannis/railsapps/mylab/rails/spec/views/api/v1/pictures/index.html.erb_spec.rb",
-		"/Users/yannis/railsapps/mylab/rails/app/views/api/v1/pictures/index.html.erb",
-		"/Users/yannis/railsapps/mylab/rails/config/initializers/carrierwave.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/versions.show.js",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/versions/show.js",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/pictures/show.hbs",
-		"/Users/yannis/railsapps/mylab/rails/app/uploaders/attachment_uploader.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/components/picture-upload.js",
-		"/Users/yannis/railsapps/mylab/rails/app/uploaders/image_uploader.rb",
-		"/Users/yannis/railsapps/mylab/rails/app/uploaders/data_uploader.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/components/file-upload.js",
-		"/Users/yannis/railsapps/mylab/ember/app/controllers/documents/index.js",
-		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150227160649_add_data_to_pictures.rb",
-		"/Users/yannis/railsapps/mylab/rails/app/assets/javascripts/api/v1/pictures.js",
-		"/Users/yannis/railsapps/mylab/ember/tests/unit/components/file-upload-component-test.js",
-		"/Users/yannis/railsapps/mylab/ember/app/components/file-upload-component.js",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/components/file-upload-component.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/components/fil-u-upload-component.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents/versions/index.js",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/versions/index.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/versions.js",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/versions/versions.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/versions.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/controllers/documents/show.js",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/versions/edit.hbs",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/versions/show.hbs",
-		"/Users/yannis/railsapps/mylab/ember/tests/unit/routes/versions/show-test.js",
-		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150224104705_create_api_v1_versions.rb",
-		"/Users/yannis/railsapps/mylab/rails/app/models/api/v1.rb",
-		"/Users/yannis/railsapps/mylab/rails/app/models/api/v1/version.rb",
-		"/Users/yannis/railsapps/mylab/rails/spec/models/api/v1/version_spec.rb",
-		"/Users/yannis/railsapps/mylab/ember/app/routes/documents.js",
-		"/Users/yannis/railsapps/mylab/ember/app/styles/app.css",
-		"/Users/yannis/railsapps/mylab/ember/app/styles/app.scss",
-		"/Users/yannis/railsapps/mylab/ember/app/templates/documents/form.hbs",
-		"/Users/yannis/railsapps/mylab/rails/app/serializers/api/v1/documents_serializer.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/serializers/api/v1/version_serializer_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/serializers/api/v1/document_serializer_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/serializers/api/v1/category_serializer_spec.rb",
+		"/Users/yannis/railsapps/mylab/rails/db/migrate/20150224104705_create_versions.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/inflections.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/rails_helper.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/spec_helper.rb",
+		"/Users/yannis/railsapps/mylab/rails/spec/models/docx_spec.rb",
+		"/Users/yannis/railsapps/mylab/ember/app/adapters/application.js",
+		"/Users/yannis/railsapps/mylab/.gitignore",
+		"/Users/yannis/railsapps/mylab/rails/config/environments/production.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/environments/development.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/setup_mail.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/filter_parameter_logging.rb",
+		"/Users/yannis/railsapps/mylab/rails/config/initializers/figaro.rb",
 		"/Users/yannis/railsapps/mylab/rails/config/secrets.yml",
-		"/Users/yannis/railsapps/myanimals/spec/features/alarms/alarm_calendar_spec.rb",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/myanimals.coffee",
-		"/Users/yannis/railsapps/myanimals/features/step_definitions/web_steps.rb",
-		"/Users/yannis/railsapps/myanimals/config/routes.rb",
-		"/Users/yannis/railsapps/myanimals/config/initializers/mime_types.rb",
-		"/Users/yannis/railsapps/myanimals/config/initializers/date_time_formats.rb",
-		"/Users/yannis/railsapps/myanimals/spec/factories.rb",
-		"/Users/yannis/railsapps/myanimals/app/views/alarms/calendar.js.coffee",
-		"/Users/yannis/railsapps/myanimals/features/alarms/calendar.feature",
-		"/Users/yannis/railsapps/myanimals/spec/features/alarms/alarm_create_edit_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/features/animals/table/animal_table_transfer_feature_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/spec_helper.rb",
-		"/Users/yannis/railsapps/myanimals/spec/support/token_input_helper.rb",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/archaias_angulatus/6668/1.tiff",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/archaias_angulatus/879/1.tiff",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/archaias_angulatus/879/2.tiff",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/cycloclypeus_carpenteri/21/1.tiff",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/cycloclypeus_carpenteri/21/2.tiff",
-		"/Users/yannis/railsapps/myanimals/spec/support/pictures/nummulites_venosus/301/1.tiff",
-		"/Users/yannis/railsapps/myanimals/Gemfile",
-		"/Users/yannis/railsapps/myanimals/app/assets/stylesheets/application.sass",
-		"/Users/yannis/railsapps/myanimals/config/unicorn_staging.eye",
-		"/Users/yannis/railsapps/myanimals/config/unicorn_production.eye",
-		"/Users/yannis/railsapps/myanimals/Guardfile",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/contextual_menu.js.coffee",
-		"/Users/yannis/railsapps/myanimals/spec/helpers/pcrs_helper_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/features/pcrs/pcrs_form_feature_spec.rb",
-		"/Users/yannis/railsapps/myanimals/app/views/animals/_give.html.haml",
-		"/Users/yannis/railsapps/myanimals/app/views/deathcauses/_form.html.haml",
-		"/Users/yannis/railsapps/myanimals/app/views/faq_categories/_form.html.haml",
-		"/Users/yannis/railsapps/myanimals/app/views/feedbacks/_form.html.haml",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/alarms.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/doc_or_pic.js.coffee.erb",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/transfers.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/helpers/form_helper.rb",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/form.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/stylesheets/_variables.sass",
-		"/Users/yannis/railsapps/myanimals/vendor/DataTables-1.10.4/css/jquery.dataTables.scss",
-		"/Users/yannis/railsapps/myanimals/app/views/alarms/_alarm_for_calendar.html.haml",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/augmentable.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/animals.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/models/autorisations.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/javascripts/utilities/loaders.js.coffee",
-		"/Users/yannis/railsapps/myanimals/app/assets/stylesheets/modules/loaders.sass",
-		"/Users/yannis/railsapps/myanimals/app/assets/stylesheets/modules/previous_and_next.sass",
-		"/Users/yannis/railsapps/myanimals/app/assets/stylesheets/modules/context_menu.sass",
-		"/Users/yannis/railsapps/myanimals/app/controllers/tags_controller.rb",
-		"/Users/yannis/railsapps/myanimals/config/initializers/associated_bubbling_validator.rb",
-		"/Users/yannis/railsapps/myanimals/app/views/alarms/_alarm.html.haml",
-		"/Users/yannis/railsapps/myanimals/lib/tasks/faqs.rake",
-		"/Users/yannis/railsapps/myanimals/lib/animal_gift.rb",
-		"/Users/yannis/railsapps/myanimals/db/migrate/20120629142011_add_kind_id_to_autorisations.rb",
-		"/Users/yannis/railsapps/myanimals/db/migrate/20120629141950_add_kind_id_to_mice.rb",
-		"/Users/yannis/railsapps/myanimals/db/migrate/20120629141805_create_lab_kinds.rb",
-		"/Users/yannis/railsapps/myanimals/app/controllers/animals_controller.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/laboratories_controller_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/litters_controller_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/locations_controller_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/loci_controller_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/multiple_animals_controller_spec.rb",
-		"/Users/yannis/railsapps/myanimals/spec/controllers/oligos_controller_spec.rb"
+		"/Users/yannis/railsapps/mylab/rails/config/database.yml",
+		"/Users/yannis/railsapps/mylab/rails/config/application.yml",
+		"/Users/yannis/railsapps/mylab/rails/Guardfile",
+		"/Users/yannis/railsapps/mylab/rails/Gemfile",
+		"/Users/yannis/railsapps/mylab/mylab.sublime-project",
+		"/Users/yannis/railsapps/mylab/rails/config/application.rb",
+		"/Users/yannis/railsapps/mylab/ember/config/environment.js",
+		"/Users/yannis/railsapps/mylab/ember/app/transforms/raw.js",
+		"/Users/yannis/railsapps/mylab/ember/app/lib/abilities.js",
+		"/Users/yannis/railsapps/mylab/ember/app/controllers/users/edit.js"
 	],
 	"find":
 	{
@@ -2407,9 +859,39 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 99.0,
 		"where_history":
 		[
+			"ember/",
+			"rails/",
+			"",
+			"ember/",
+			"rails/",
+			"ember/",
+			"",
+			"ember/",
+			"",
+			"ember/",
+			"ember/app/",
+			"",
+			"ember/app/",
+			"ember/app/models/",
+			"ember/app/",
+			"ember/app/controllers/",
+			"ember/",
+			"rails/spec/",
+			"rails/",
+			"ember/",
+			"rails/",
+			"ember/",
+			"rails/",
+			"",
+			"ember/",
+			"rails/",
+			"",
+			"ember/",
+			"",
+			"rails/",
 			"ember/",
 			"",
 			"ember/",
@@ -2507,36 +989,6 @@
 			"app/assets/",
 			"",
 			"spec/models/",
-			"",
-			"spec/helpers/",
-			"spec/mailers/",
-			"spec/helpers/",
-			"",
-			"spec/controllers/",
-			"",
-			"spec/",
-			"",
-			"app/",
-			"spec/controllers/",
-			"",
-			"app/models/",
-			"",
-			"spec/",
-			"app/",
-			"",
-			"spec/",
-			"spec",
-			"",
-			"app/",
-			"",
-			"app/",
-			"app/controllers/",
-			"",
-			"db/",
-			"",
-			"app/",
-			"db/",
-			"config/",
 			""
 		]
 	},
@@ -2545,134 +997,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"authenticate",
-			"md",
-			"sm",
-			"/api/",
-			"speaker",
-			"speakers",
-			"config",
-			"DS.store",
-			"Rails.env",
-			"version",
-			"delete",
-			"version",
-			"P",
-			"p",
-			"store",
-			"Ember.inject.service",
-			"flash",
-			"broccoli",
-			"brocoli",
-			"inputTrees",
-			"inputTree",
-			"documents",
-			"Documents",
-			"document",
-			"p",
-			"version",
-			"link-to",
-			"document",
-			"handelbars",
-			"Document",
-			"Documents",
-			"documents",
-			"Document",
-			"documents",
-			"document",
-			"Documents",
-			"Base",
-			"document",
-			"documents",
-			"document",
-			"category",
-			"resource",
-			"document",
-			"Document",
-			"resource",
-			"association",
-			"category",
-			"Category",
-			"\"=>",
-			"Rack",
-			"attachment",
-			"def ",
-			"attachment[:data]",
-			"Word",
-			"Create from Word",
-			"Create from word",
-			"create from word",
-			"version",
-			"var ",
-			"post",
-			"comment",
-			"Ember.testing",
-			"Ember.testing = false",
-			"Ember.testing",
-			"DS.FixtureAdapter",
-			"thumbnail",
-			"delete",
-			"createVersionFromWordFile",
-			"fileLoaded",
-			"WordToMarkdown",
-			"a new doc",
-			"break",
-			"mylab.dev",
-			"apiHost",
-			"Updated",
-			"Document",
-			"uploads",
-			"api/v1",
-			"extension",
-			"localhost:3000",
-			"called",
-			"currentDocument",
-			"lastVersion",
+			"\n  ",
 			"currentVersion",
+			"redirect:",
+			"optionselec",
+			"resource",
+			"sharedGroups",
+			"objectcontroller",
+			".create ",
+			"versions.index",
+			"rollback",
+			"valida",
+			"registration",
+			"RegistrationsController",
+			"objectController",
+			"objectco",
+			"token",
+			"access_token",
+			"token",
+			"session",
+			"access_token",
+			"created_by_user_id",
+			"creator",
+			"is_expectd",
+			"destroy_all",
+			"documents",
+			"update",
+			"create",
+			"membership",
+			"memberships",
+			"user",
+			"controllers",
+			"deactivate",
+			"this.model.rollback();",
+			"cancel: ",
+			"exit",
+			"_this.flashMessage",
+			"file-picker",
+			"div",
+			"textarea.form-control",
+			"tooltip",
+			"moment",
+			"autosize",
+			"delete",
+			"alert",
+			", {sticky: true}",
+			"sharable",
+			"addSharing",
+			"availableGroups",
+			"editSha",
+			"editsha",
+			"edit-group-sharing",
+			"setController",
+			"targetObject.model",
+			"if",
+			"Not shared with any group",
 			"document",
-			"Document",
-			"form-control",
-			"npm:",
-			"npm::",
-			" 'localhost' ",
-			" localhost:3000",
-			"optionSelected",
-			"initSelection",
-			"Bootstrap",
-			"conte",
-			"formatItemForSelect2",
-			"versionSelected",
-			"documentSelected",
-			"currentDocument",
+			"sendAction",
+			"addSharing",
+			"isShared",
+			"isEditing",
+			"default",
+			"sharable",
+			"availableGroups",
+			"sharing",
+			"edit_sharing",
+			"deleteSharing",
+			"shareWithGroup",
+			"sharing",
+			"delete: ",
+			"forEach",
+			"createRecord",
+			"/show/groups",
+			"currentGroups",
+			"document",
+			"text",
+			"this.controll",
+			"saveShar",
+			"select-2",
+			"panel-default",
+			"form",
+			"store",
+			"model",
+			"model.",
+			"},\n",
+			"model.",
+			"needs",
+			"super",
+			"modelFor",
+			"currentUser",
+			"Ds",
+			"readable",
+			"id",
+			"interact_with",
+			"transfer",
+			"t0",
+			"formatted",
+			"formattedDate",
 			"formatDate",
 			"formattedDate",
 			"formatDate",
-			"dateHelper",
-			"title",
-			"\n  ",
-			"title",
-			"text",
-			"document",
-			"lastVersion",
-			"delete: ",
-			"delete:",
-			"delete: function",
-			"delete",
-			"link-to",
-			"table",
-			"js",
-			"filename\"=>\"Allogromia.docx\", \"type",
-			"mylab.dev",
-			"localhost:3000",
-			"MAILER_HOST",
-			"flash-message",
-			"computedName",
-			"file",
+			"moment",
+			"sharing",
+			"sharings",
+			"group",
 			"attachment",
-			"include CarrierWave::MimeTypes",
-			"image",
+			"belongsTo",
+			"belongTo",
+			"DS.belongTo",
+			"default.belongTo",
+			"version",
+			"setupController",
+			"picturable",
+			"Picture",
+			"sharings",
 			"picture",
-			"file_will_change"
+			"attachable",
+			"count",
+			"group_",
+			"admin",
+			"group",
+			"_group",
+			"nested_attribute",
+			"accept_nested_attribute",
+			"canCreateUser",
+			"import Session",
+			"currentUser",
+			"invalidate",
+			"user"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -2680,6 +1132,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"ApplicationController",
 			"Categories",
 			"mylab.dev",
 			"optionSelected",
@@ -2806,8 +1259,7 @@
 			"let(:$1) {Factory",
 			"locus",
 			"Locus",
-			"locus",
-			"loci"
+			"locus"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -2818,5178 +1270,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "mylab.sublime-project",
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								193
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "rails/Gemfile",
-					"settings":
-					{
-						"buffer_size": 1386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								461,
-								461
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "rails/Guardfile",
-					"settings":
-					{
-						"buffer_size": 1310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "rails/config/application.yml",
-					"settings":
-					{
-						"buffer_size": 1918,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1918,
-								1918
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "rails/config/database.yml",
-					"settings":
-					{
-						"buffer_size": 2909,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2728,
-								2728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "rails/config/initializers/devise.rb",
-					"settings":
-					{
-						"buffer_size": 12848,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								915,
-								915
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "ember/app/styles/app.scss",
-					"settings":
-					{
-						"buffer_size": 624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								580,
-								241
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "ember/app/styles/models/document.sass",
-					"settings":
-					{
-						"buffer_size": 143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "ember/package.json",
-					"settings":
-					{
-						"buffer_size": 1591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "ember/app/components/markdown-to-html.js",
-					"settings":
-					{
-						"buffer_size": 289,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								263,
-								263
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import Ember from 'ember';",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "rails/config/secrets.yml",
-					"settings":
-					{
-						"buffer_size": 148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "rails/config/initializers/figaro.rb",
-					"settings":
-					{
-						"buffer_size": 72,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"auto_name": "Figaro.require_keys(\"pusher_app_id\", \"pusher_key\",",
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "rails/config/initializers/filter_parameter_logging.rb",
-					"settings":
-					{
-						"buffer_size": 218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								218
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "rails/config/initializers/setup_mail.rb",
-					"settings":
-					{
-						"buffer_size": 326,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								294,
-								275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "rails/config/application.rb",
-					"settings":
-					{
-						"buffer_size": 1659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1373,
-								1373
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 15,
-					"file": "rails/config/environments/development.rb",
-					"settings":
-					{
-						"buffer_size": 1014,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 16,
-					"file": "rails/config/environments/production.rb",
-					"settings":
-					{
-						"buffer_size": 2799,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2057,
-								2057
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": ".gitignore",
-					"settings":
-					{
-						"buffer_size": 731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "ember/config/environment.js",
-					"settings":
-					{
-						"buffer_size": 1685,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								944,
-								944
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "ember/app/router.js",
-					"settings":
-					{
-						"buffer_size": 1099,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "ember/app/adapters/application.js",
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								117,
-								117
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "rails/spec/factories/documents.rb",
-					"settings":
-					{
-						"buffer_size": 120,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								109,
-								109
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "rails/spec/models/document_spec.rb",
-					"settings":
-					{
-						"buffer_size": 220,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								158,
-								158
-							],
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "rails/spec/models/version_spec.rb",
-					"settings":
-					{
-						"buffer_size": 767,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								63
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "rails/spec/models/docx_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1411,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								296,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "rails/spec/spec_helper.rb",
-					"settings":
-					{
-						"buffer_size": 4094,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2525,
-								2450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "rails/spec/rails_helper.rb",
-					"settings":
-					{
-						"buffer_size": 2421,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								339,
-								291
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "rails/app/models/document.rb",
-					"settings":
-					{
-						"buffer_size": 449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "rails/db/seeds.rb",
-					"settings":
-					{
-						"buffer_size": 728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								728,
-								728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 29,
-					"file": "rails/config/initializers/inflections.rb",
-					"settings":
-					{
-						"buffer_size": 731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								731,
-								731
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 30,
-					"file": "rails/config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 719,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 31,
-					"file": "rails/app/controllers/api/v1/documents_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1591,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1354,
-								1354
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 32,
-					"file": "rails/app/models/version.rb",
-					"settings":
-					{
-						"buffer_size": 696,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								696,
-								696
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 33,
-					"file": "rails/db/migrate/20150224104705_create_versions.rb",
-					"settings":
-					{
-						"buffer_size": 324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 34,
-					"file": "rails/app/serializers/api/v1/document_serializer.rb",
-					"settings":
-					{
-						"buffer_size": 182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								36,
-								59
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 35,
-					"file": "rails/spec/serializers/api/v1/category_serializer_spec.rb",
-					"settings":
-					{
-						"buffer_size": 604,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								604
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'rails_helper'",
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 36,
-					"file": "rails/spec/serializers/api/v1/document_serializer_spec.rb",
-					"settings":
-					{
-						"buffer_size": 775,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								775,
-								775
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 37,
-					"file": "rails/spec/serializers/api/v1/version_serializer_spec.rb",
-					"settings":
-					{
-						"buffer_size": 654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								641,
-								641
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 38,
-					"file": "rails/app/serializers/api/v1/picture_serializer.rb",
-					"settings":
-					{
-						"buffer_size": 1059,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 39,
-					"file": "rails/app/serializers/api/v1/attachment_serializer.rb",
-					"settings":
-					{
-						"buffer_size": 202,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 40,
-					"file": "ember/app/templates/documents.hbs",
-					"settings":
-					{
-						"buffer_size": 618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								323,
-								126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 41,
-					"file": "ember/app/templates/documents/index.hbs",
-					"settings":
-					{
-						"buffer_size": 54,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17,
-								17
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 42,
-					"file": "ember/app/templates/versions.hbs",
-					"settings":
-					{
-						"buffer_size": 978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								723,
-								736
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 43,
-					"file": "ember/app/templates/versions/index.hbs",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 44,
-					"file": "ember/app/routes/documents.js",
-					"settings":
-					{
-						"buffer_size": 1305,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								242,
-								242
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 45,
-					"file": "ember/app/routes/documents/index.js",
-					"settings":
-					{
-						"buffer_size": 374,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								374
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 46,
-					"file": "ember/app/routes/categories/index.js",
-					"settings":
-					{
-						"buffer_size": 355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								355,
-								355
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 47,
-					"file": "ember/app/routes/versions/index.js",
-					"settings":
-					{
-						"buffer_size": 373,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 48,
-					"file": "ember/app/models/document.js",
-					"settings":
-					{
-						"buffer_size": 1135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								182,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 49,
-					"file": "ember/app/routes/documents/show.js",
-					"settings":
-					{
-						"buffer_size": 550,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								193,
-								90
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 50,
-					"file": "ember/app/routes/documents/show/index.js",
-					"settings":
-					{
-						"buffer_size": 229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								218
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 51,
-					"file": "ember/app/routes/versions/new.js",
-					"settings":
-					{
-						"buffer_size": 276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								276
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 52,
-					"file": "ember/app/routes/versions/duplicate.js",
-					"settings":
-					{
-						"buffer_size": 473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								383,
-								383
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 53,
-					"file": "ember/app/routes/versions.js",
-					"settings":
-					{
-						"buffer_size": 321,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								66
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 54,
-					"file": "ember/tests/unit/routes/documents/versions/show-test.js",
-					"settings":
-					{
-						"buffer_size": 286,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								79,
-								79
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 55,
-					"file": "ember/app/templates/documents/show.hbs",
-					"settings":
-					{
-						"buffer_size": 1698,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								999,
-								999
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 56,
-					"file": "ember/app/templates/versions/show.hbs",
-					"settings":
-					{
-						"buffer_size": 1306,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1169,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 57,
-					"file": "ember/app/templates/versions/edit.hbs",
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								425
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 58,
-					"file": "/Users/yannis/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 59,
-					"file": "ember/app/templates/documents/edit.hbs",
-					"settings":
-					{
-						"buffer_size": 60,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 60,
-					"file": "ember/app/templates/documents/-form.hbs",
-					"settings":
-					{
-						"buffer_size": 579,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								143,
-								161
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 61,
-					"file": "ember/app/templates/components/file-upload.hbs",
-					"settings":
-					{
-						"buffer_size": 10,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 62,
-					"file": "ember/tests/unit/components/file-upload-test.js",
-					"settings":
-					{
-						"buffer_size": 497,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 63,
-					"file": "ember/app/templates/documents/new.hbs",
-					"settings":
-					{
-						"buffer_size": 51,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								51
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 64,
-					"file": "ember/vendor/ember/ember-testing.js",
-					"settings":
-					{
-						"buffer_size": 45193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								27732,
-								27732
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2655.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 65,
-					"file": "ember/vendor/ember/ember.js",
-					"settings":
-					{
-						"buffer_size": 1629934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								172275,
-								172199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 111075.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 66,
-					"file": "ember/tests/unit/utils/date-helpers-test.js",
-					"settings":
-					{
-						"buffer_size": 247,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 67,
-					"file": "ember/app/routes/documents/new.js",
-					"settings":
-					{
-						"buffer_size": 143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 68,
-					"file": "ember/app/routes/documents/edit.js",
-					"settings":
-					{
-						"buffer_size": 357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								344,
-								344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 69,
-					"file": "ember/app/controllers/documents/base.js",
-					"settings":
-					{
-						"buffer_size": 442,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								442,
-								442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 70,
-					"file": "ember/app/controllers/categories/base.js",
-					"settings":
-					{
-						"buffer_size": 342,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								342,
-								342
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 71,
-					"file": "ember/app/controllers/documents/edit.js",
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 72,
-					"file": "ember/app/controllers/categories/edit.js",
-					"settings":
-					{
-						"buffer_size": 246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								204,
-								204
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 73,
-					"file": "ember/app/controllers/documents/show.js",
-					"settings":
-					{
-						"buffer_size": 1705,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								82,
-								82
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 74,
-					"file": "ember/app/controllers/documents/new.js",
-					"settings":
-					{
-						"buffer_size": 219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								219
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 75,
-					"settings":
-					{
-						"buffer_size": 219,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								219,
-								219
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 76,
-					"file": "ember/app/app.js",
-					"settings":
-					{
-						"buffer_size": 687,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								536,
-								536
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 77,
-					"file": "ember/app/routes/application.js",
-					"settings":
-					{
-						"buffer_size": 417,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								417,
-								417
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 78,
-					"file": "rails/app/controllers/api/v1/csrf_controller.rb",
-					"settings":
-					{
-						"buffer_size": 165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 79,
-					"file": "rails/spec/controllers/api/documents_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 80,
-					"file": "rails/spec/controllers/api/v1/documents_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1036,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 81,
-					"file": "ember/Brocfile.js",
-					"settings":
-					{
-						"buffer_size": 1703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1623,
-								1633
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 38.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 82,
-					"file": "ember/app/templates/application.hbs",
-					"settings":
-					{
-						"buffer_size": 1950,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1144,
-								1144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 436.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 83,
-					"file": "ember/app/index.html",
-					"settings":
-					{
-						"buffer_size": 614,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								131,
-								131
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 84,
-					"file": "ember/dist/assets/mylab.js",
-					"settings":
-					{
-						"buffer_size": 268496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 85,
-					"file": "ember/dist/assets/mylab.css",
-					"settings":
-					{
-						"buffer_size": 154808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 86,
-					"file": "ember/app/controllers/documents.js",
-					"settings":
-					{
-						"buffer_size": 356,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 87,
-					"file": "rails/app/helpers/api/v1/versions_helper.rb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 88,
-					"file": "rails/spec/factories/versions.rb",
-					"settings":
-					{
-						"buffer_size": 207,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								207,
-								207
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 89,
-					"file": "rails/app/serializers/api/v1/version_serializer.rb",
-					"settings":
-					{
-						"buffer_size": 155,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 90,
-					"file": "ember/app/models/version.js",
-					"settings":
-					{
-						"buffer_size": 649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								469,
-								486
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 91,
-					"file": "rails/app/controllers/api/v1/versions_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1728,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								854,
-								894
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 92,
-					"file": "ember/app/utils/date-helpers.js",
-					"settings":
-					{
-						"buffer_size": 107,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								103,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 93,
-					"file": "ember/app/helpers/formatted-date.js",
-					"settings":
-					{
-						"buffer_size": 296,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								203
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 94,
-					"file": "ember/app/templates/versions/-form.hbs",
-					"settings":
-					{
-						"buffer_size": 379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 95,
-					"file": "ember/app/templates/categories/-form.hbs",
-					"settings":
-					{
-						"buffer_size": 307,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 96,
-					"file": "ember/app/controllers/versions/base.js",
-					"settings":
-					{
-						"buffer_size": 505,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								379,
-								379
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 97,
-					"file": "rails/app/models/docx.rb",
-					"settings":
-					{
-						"buffer_size": 215,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								154,
-								154
-							]
-						],
-						"settings":
-						{
-							"auto_name": "class Docx",
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 98,
-					"file": "ember/app/controllers/versions/edit.js",
-					"settings":
-					{
-						"buffer_size": 242,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								233,
-								233
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 99,
-					"file": "ember/app/controllers/versions/new.js",
-					"settings":
-					{
-						"buffer_size": 216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								216
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 100,
-					"file": "ember/app/controllers/versions/duplicate.js",
-					"settings":
-					{
-						"buffer_size": 216,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 101,
-					"file": "ember/app/templates/versions/new.hbs",
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								425
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 102,
-					"file": "ember/app/templates/versions/duplicate.hbs",
-					"settings":
-					{
-						"buffer_size": 429,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 103,
-					"file": "ember/app/controllers/versions.js",
-					"settings":
-					{
-						"buffer_size": 1259,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								535,
-								535
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 104,
-					"file": "ember/app/controllers/versions/index.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 105,
-					"file": "ember/tests/unit/components/fil-u-upload-component-test.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 106,
-					"file": "ember/bower_components/ember/ember-template-compiler.js",
-					"settings":
-					{
-						"buffer_size": 217911,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								38669,
-								38669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 107,
-					"file": "ember/bower_components/ember-uploader/dist/ember-uploader.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 108,
-					"file": "rails/db/migrate/20150227155705_create_pictures.rb",
-					"settings":
-					{
-						"buffer_size": 331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								286,
-								301
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 109,
-					"file": "rails/app/models/picture.rb",
-					"settings":
-					{
-						"buffer_size": 124,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								124,
-								124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 110,
-					"file": "ember/app/models/picturable.js",
-					"settings":
-					{
-						"buffer_size": 118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								75
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 111,
-					"file": "ember/app/models/picture.js",
-					"settings":
-					{
-						"buffer_size": 818,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								211,
-								220
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 112,
-					"file": "ember/app/models/thumbnail.js",
-					"settings":
-					{
-						"buffer_size": 394,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 113,
-					"file": "ember/app/transforms/raw.js",
-					"settings":
-					{
-						"buffer_size": 323,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "// app/transforms/raw.js",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 114,
-					"file": "ember/app/models/docx.js",
-					"settings":
-					{
-						"buffer_size": 138,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import DS from 'ember-data';",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 115,
-					"file": "rails/app/controllers/api/v1/pictures_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1581,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1267,
-								1223
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 116,
-					"file": "rails/app/controllers/api/v1/attachments_controller.rb",
-					"settings":
-					{
-						"buffer_size": 2812,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								271,
-								271
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 117,
-					"file": "rails/spec/models/picture_spec.rb",
-					"settings":
-					{
-						"buffer_size": 179,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								179
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 118,
-					"file": "ember/bower_components/ember-uploader/packages/ember-uploader/lib/uploader.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 119,
-					"file": "ember/app/views/pictures/show.js",
-					"settings":
-					{
-						"buffer_size": 99,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								99
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 120,
-					"file": "ember/app/views/attachments/show.js",
-					"settings":
-					{
-						"buffer_size": 102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 121,
-					"file": "ember/app/templates/attachments/show.hbs",
-					"settings":
-					{
-						"buffer_size": 235,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								28,
-								42
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 122,
-					"file": "rails/app/uploaders/image_uploader.rb",
-					"settings":
-					{
-						"buffer_size": 1820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1430,
-								1152
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 123,
-					"file": "rails/app/models/attachment.rb",
-					"settings":
-					{
-						"buffer_size": 156,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								156,
-								156
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 124,
-					"file": "rails/app/uploaders/file_uploader.rb",
-					"settings":
-					{
-						"buffer_size": 1535,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								443,
-								443
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 30.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 125,
-					"file": "rails/app/uploaders/docx_uploader.rb",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 126,
-					"file": "rails/db/migrate/20150303150403_create_attachments.rb",
-					"settings":
-					{
-						"buffer_size": 370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 127,
-					"file": "ember/app/models/attachment.js",
-					"settings":
-					{
-						"buffer_size": 331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								155,
-								155
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 128,
-					"file": "rails/db/migrate/20150217132434_create_documents.rb",
-					"settings":
-					{
-						"buffer_size": 180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 129,
-					"file": "ember/app/templates/components/select-2.hbs",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 130,
-					"file": "ember/app/routes/versions/edit.js",
-					"settings":
-					{
-						"buffer_size": 632,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								632,
-								632
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 131,
-					"file": "ember/app/routes/versions/show.js",
-					"settings":
-					{
-						"buffer_size": 764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								758,
-								392
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 132,
-					"file": "ember/app/templates/pictures/show.hbs",
-					"settings":
-					{
-						"buffer_size": 729,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								270,
-								270
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 133,
-					"file": "ember/app/serializers/picture.js",
-					"settings":
-					{
-						"buffer_size": 162,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								45,
-								45
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 134,
-					"file": "rails/config/initializers/carrierwave.rb",
-					"settings":
-					{
-						"buffer_size": 140,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								140,
-								140
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 135,
-					"file": "ember/app/components/zero-clipboard.js",
-					"settings":
-					{
-						"buffer_size": 276,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								106,
-								106
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 136,
-					"file": "ember/app/templates/components/flash-message.hbs",
-					"settings":
-					{
-						"buffer_size": 255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 137,
-					"file": "ember/app/components/flash-message.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "import FlashMessageComponent from 'ember-flash-mes",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 138,
-					"file": "ember/app/templates/components/zero-clipboard.hbs",
-					"settings":
-					{
-						"buffer_size": 97,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								97,
-								97
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 139,
-					"file": "ember/.nvmrc",
-					"settings":
-					{
-						"buffer_size": 7,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 140,
-					"file": "rails/config/initializers/mime_types.rb",
-					"settings":
-					{
-						"buffer_size": 203,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								159,
-								159
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 141,
-					"file": "rails/config/initializers/wicked_pdf.rb",
-					"settings":
-					{
-						"buffer_size": 154,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 142,
-					"file": "rails/app/views/layouts/pdf.html.erb",
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								150,
-								150
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 143,
-					"file": "rails/app/assets/stylesheets/pdf.sass",
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 144,
-					"file": "ember/app/templates/components/message-queue.hbs",
-					"settings":
-					{
-						"buffer_size": 214,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104,
-								104
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 145,
-					"file": "ember/.ember-cli",
-					"settings":
-					{
-						"buffer_size": 311,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 146,
-					"file": "rails/app/controllers/api/v1/docxes_controller.rb",
-					"settings":
-					{
-						"buffer_size": 310,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								310,
-								310
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 147,
-					"file": "rails/app/models/upload.rb",
-					"settings":
-					{
-						"buffer_size": 797,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								500,
-								500
-							]
-						],
-						"settings":
-						{
-							"auto_name": "class Upload",
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 148,
-					"file": "rails/spec/factories/docxes.rb",
-					"settings":
-					{
-						"buffer_size": 122,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								51,
-								110
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 149,
-					"file": "rails/spec/controllers/api/v1/docxes_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 70294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								87
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 150,
-					"file": "rails/spec/controllers/api/v1/versions_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 151,
-					"file": "ember/bower.json",
-					"settings":
-					{
-						"buffer_size": 645,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 152,
-					"file": "rails/app/pdfs/versions/show.pdf.haml",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 153,
-					"file": "rails/app/views/api/v1/versions/show.pdf.erb",
-					"settings":
-					{
-						"buffer_size": 71,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								30,
-								30
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 154,
-					"file": "ember/vendor/showdown/extensions/table.js",
-					"settings":
-					{
-						"buffer_size": 3239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2019,
-								2019
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1090.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 155,
-					"file": "ember/app/initializers/tooltip.js",
-					"settings":
-					{
-						"buffer_size": 312,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								312
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 156,
-					"file": "ember/app/initializers/flashmessage.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 157,
-					"file": "ember/tests/unit/models/version-test.js",
-					"settings":
-					{
-						"buffer_size": 1078,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								382,
-								255
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 158,
-					"file": "ember/tests/unit/controllers/versions-test.js",
-					"settings":
-					{
-						"buffer_size": 363,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								363
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 159,
-					"file": "ember/vendor/ember-qunit/lib/test.js",
-					"settings":
-					{
-						"buffer_size": 617,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								617,
-								617
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 160,
-					"file": "rails/spec/controllers/api/v1/pictures_controller_spec.rb",
-					"settings":
-					{
-						"buffer_size": 33833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								33828,
-								33828
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4259.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 161,
-					"file": "ember/app/routes/picture.js",
-					"settings":
-					{
-						"buffer_size": 67,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								67
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 162,
-					"file": "rails/spec/factories/pictures.rb",
-					"settings":
-					{
-						"buffer_size": 302,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								302
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 163,
-					"file": "rails/spec/models/attachment_spec.rb",
-					"settings":
-					{
-						"buffer_size": 185,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 164,
-					"file": "rails/spec/factories/attachments.rb",
-					"settings":
-					{
-						"buffer_size": 243,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								73,
-								73
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 165,
-					"file": "rails/spec/models/category_spec.rb",
-					"settings":
-					{
-						"buffer_size": 294,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								122,
-								134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 166,
-					"file": "rails/app/models/category.rb",
-					"settings":
-					{
-						"buffer_size": 171,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								81,
-								81
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 167,
-					"file": "rails/spec/factories/categories.rb",
-					"settings":
-					{
-						"buffer_size": 84,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								71,
-								71
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 168,
-					"file": "rails/app/serializers/api/v1/category_serializer.rb",
-					"settings":
-					{
-						"buffer_size": 125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								73,
-								73
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 169,
-					"file": "ember/app/models/category.js",
-					"settings":
-					{
-						"buffer_size": 147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								141,
-								141
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 170,
-					"file": "ember/app/templates/categories.hbs",
-					"settings":
-					{
-						"buffer_size": 612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								470,
-								470
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 171,
-					"file": "ember/app/controllers/categories/new.js",
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								222
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 172,
-					"file": "ember/app/controllers/categories/edit.js",
-					"settings":
-					{
-						"buffer_size": 246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 173,
-					"file": "ember/app/templates/categories/new.hbs",
-					"settings":
-					{
-						"buffer_size": 52,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								52
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 174,
-					"file": "ember/app/templates/categories/edit.hbs",
-					"settings":
-					{
-						"buffer_size": 70,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								31,
-								31
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<h1>New category</h1>",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 175,
-					"file": "ember/app/routes/categories/new.js",
-					"settings":
-					{
-						"buffer_size": 148,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								148,
-								148
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 176,
-					"file": "ember/app/routes/categories.js",
-					"settings":
-					{
-						"buffer_size": 135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 177,
-					"file": "rails/app/controllers/api/v1/categories_controller.rb",
-					"settings":
-					{
-						"buffer_size": 1586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1182,
-								1182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 178,
-					"file": "ember/app/templates/categories/show.hbs",
-					"settings":
-					{
-						"buffer_size": 945,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								824,
-								824
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Handlebars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 179,
-					"file": "ember/app/initializers/flash-message.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 180,
-					"file": "ember/app/routes/categories/show.js",
-					"settings":
-					{
-						"buffer_size": 415,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								377,
-								377
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 181,
-					"file": "ember/tests/acceptance/documents/show-test.js",
-					"settings":
-					{
-						"buffer_size": 1734,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1407,
-								1407
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 310.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 182,
-					"file": "ember/tests/acceptance/documents/index-test.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 183,
-					"file": "ember/tests/acceptance/documents/new-test.js",
-					"settings":
-					{
-						"buffer_size": 931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								267
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 184,
-					"file": "rails/app/controllers/application_controller.rb",
-					"settings":
-					{
-						"buffer_size": 366,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								339,
-								339
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 185,
-					"file": "ember/tests/helpers/start-app.js",
-					"settings":
-					{
-						"buffer_size": 522,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								522,
-								522
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 186,
-					"file": "ember/app/templates/login.hbs",
-					"settings":
-					{
-						"buffer_size": 872,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								171,
-								183
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 187,
-					"file": "rails/db/migrate/20150401152554_devise_create_users.rb",
-					"settings":
-					{
-						"buffer_size": 1463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								165,
-								165
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 188,
-					"file": "rails/app/models/user.rb",
-					"settings":
-					{
-						"buffer_size": 953,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								506,
-								506
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 189,
-					"file": "rails/spec/models/user_spec.rb",
-					"settings":
-					{
-						"buffer_size": 1043,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								77,
-								77
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/User/RSpec.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 190,
-					"file": "rails/spec/factories/users.rb",
-					"settings":
-					{
-						"buffer_size": 57,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								57,
-								57
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -8043,283 +1325,443 @@
 		"selected_items":
 		[
 			[
-				"gemfile",
-				"rails/Gemfile"
+				"routenew",
+				"ember/app/routes/versions/new.js"
 			],
 			[
-				"modelvers",
-				"rails/app/models/version.rb"
+				"documents/show/versions/new",
+				"ember/app/controllers/documents/show/versions/new.js"
 			],
 			[
-				"appsa",
-				"ember/app/styles/app.scss"
-			],
-			[
-				"app",
-				"ember/app/templates/application.hbs"
+				"rouverssho",
+				"ember/app/routes/versions/show.js"
 			],
 			[
 				"",
-				"rails/app/uploaders/image_uploader.rb"
+				"ember/app/routes/application/index.js"
 			],
 			[
-				"uploa",
-				"rails/app/uploaders/image_uploader.rb"
-			],
-			[
-				"railshe",
-				"rails/spec/rails_helper.rb"
-			],
-			[
-				"factuser",
-				"rails/spec/factories/users.rb"
-			],
-			[
-				"userspec",
-				"rails/spec/models/user_spec.rb"
-			],
-			[
-				"userr",
-				"rails/app/models/user.rb"
-			],
-			[
-				"createuser",
-				"rails/db/migrate/20150401152554_devise_create_users.rb"
-			],
-			[
-				"userspe",
-				"rails/spec/models/user_spec.rb"
-			],
-			[
-				"routesrb",
-				"rails/config/routes.rb"
-			],
-			[
-				"modeluser",
-				"rails/app/models/user.rb"
-			],
-			[
-				"creauser",
-				"rails/db/migrate/20150401152554_devise_create_users.rb"
-			],
-			[
-				"loginhbs",
-				"ember/app/templates/login.hbs"
-			],
-			[
-				"loghbs",
-				"ember/app/templates/login.hbs"
-			],
-			[
-				"apphbs",
-				"ember/app/templates/application.hbs"
-			],
-			[
-				"router",
-				"ember/app/router.js"
-			],
-			[
-				"routesdocu",
-				"ember/app/routes/documents.js"
-			],
-			[
-				"enviro",
-				"ember/config/environment.js"
+				"routein",
+				"ember/app/routes/categories/index.js"
 			],
 			[
 				"routeapp",
 				"ember/app/routes/application.js"
 			],
 			[
-				"showtes",
-				"ember/tests/acceptance/documents/show-test.js"
+				"vernewhbs",
+				"ember/app/templates/documents/show/versions/new.hbs"
 			],
 			[
-				"pac",
-				"ember/package.json"
-			],
-			[
-				"envir",
-				"ember/config/environment.js"
-			],
-			[
-				"modeldo",
-				"ember/app/models/document.js"
-			],
-			[
-				"mock",
-				"ember/server/mocks/documents.js"
-			],
-			[
-				"start",
-				"ember/tests/helpers/start-app.js"
-			],
-			[
-				"catebase",
-				"ember/app/controllers/categories/base.js"
-			],
-			[
-				"documentba",
-				"ember/app/controllers/documents/base.js"
-			],
-			[
-				"csrf",
-				"rails/app/controllers/api/v1/csrf_controller.rb"
-			],
-			[
-				"see",
-				"rails/db/seeds.rb"
-			],
-			[
-				"appcontr",
-				"rails/app/controllers/application_controller.rb"
-			],
-			[
-				"railsrout",
-				"rails/config/routes.rb"
-			],
-			[
-				"accepta",
-				"ember/tests/acceptance/documents/new-test.js"
-			],
-			[
-				"env",
-				"ember/config/environment.js"
-			],
-			[
-				"doform",
-				"ember/app/templates/documents/-form.hbs"
-			],
-			[
-				"catesho",
-				"ember/app/routes/categories/show.js"
-			],
-			[
-				"catbas",
-				"ember/app/controllers/categories/base.js"
-			],
-			[
-				"verssh",
+				"versionsshowhb",
 				"ember/app/templates/versions/show.hbs"
 			],
 			[
-				"docshs",
+				"routeindex",
+				"ember/app/routes/versions/index.js"
+			],
+			[
+				"versionshbs",
+				"ember/app/templates/versions.hbs"
+			],
+			[
+				"docshow",
 				"ember/app/templates/documents/show.hbs"
 			],
 			[
-				"docinde",
-				"ember/app/templates/documents/index.hbs"
+				"routevers",
+				"ember/app/routes/versions.js"
 			],
 			[
-				"catsh",
-				"ember/app/templates/categories/show.hbs"
+				"routedocsh",
+				"ember/app/routes/documents/show.js"
+			],
+			[
+				"router",
+				"ember/app/router.js"
+			],
+			[
+				"routedocsho",
+				"ember/app/routes/documents/show.js"
+			],
+			[
+				"documentssh",
+				"ember/app/controllers/documents/show.js"
+			],
+			[
+				"routedocumentssho",
+				"ember/app/routes/documents/show/index.js"
+			],
+			[
+				"route",
+				"ember/app/router.js"
+			],
+			[
+				"versionsin",
+				"ember/app/routes/versions/index.js"
+			],
+			[
+				"routeversions",
+				"ember/app/routes/versions.js"
+			],
+			[
+				"packjs",
+				"ember/package.json"
+			],
+			[
+				"versionjs",
+				"ember/app/models/version.js"
+			],
+			[
+				"versionshowhbs",
+				"ember/app/templates/versions/show.hbs"
+			],
+			[
+				"simple",
+				"ember/app/initializers/simple-auth-config.js"
+			],
+			[
+				"user",
+				"rails/app/models/user.rb"
+			],
+			[
+				"appco",
+				"rails/app/controllers/application_controller.rb"
+			],
+			[
+				"sesioc",
+				"rails/app/controllers/api/v1/sessions_controller.rb"
+			],
+			[
+				"seed",
+				"rails/db/seeds.rb"
+			],
+			[
+				"apphbs",
+				"ember/app/templates/application.hbs"
+			],
+			[
+				"routegroupsh",
+				"ember/app/routes/groups/show.js"
+			],
+			[
+				"usercon",
+				"rails/app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"userjs",
+				"ember/app/models/user.js"
+			],
+			[
+				"categocon",
+				"rails/app/controllers/api/v1/categories_controller.rb"
 			],
 			[
 				"catser",
 				"rails/app/serializers/api/v1/category_serializer.rb"
 			],
 			[
-				"modecateg",
-				"ember/app/models/category.js"
+				"categcon",
+				"rails/app/controllers/api/v1/categories_controller.rb"
 			],
 			[
-				"contrdocume",
-				"rails/app/controllers/api/v1/documents_controller.rb"
+				"ability",
+				"rails/app/models/ability.rb"
 			],
 			[
-				"docshhbs",
-				"ember/app/templates/documents/show.hbs"
+				"routecateg",
+				"ember/app/routes/categories.js"
+			],
+			[
+				"routeversionsin",
+				"ember/app/routes/versions/index.js"
+			],
+			[
+				"routeversin",
+				"ember/app/routes/versions/index.js"
+			],
+			[
+				"rotevers",
+				"ember/app/routes/versions.js"
+			],
+			[
+				"routeusernew",
+				"ember/app/routes/users/new.js"
+			],
+			[
+				"routeversnew",
+				"ember/app/routes/versions/new.js"
+			],
+			[
+				"formerr",
+				"ember/app/components/form-errors.js"
+			],
+			[
+				"form",
+				"ember/app/templates/components/form-errors.hbs"
+			],
+			[
+				"devise",
+				"rails/config/initializers/devise.rb"
+			],
+			[
+				"userfor",
+				"ember/app/templates/users/-form.hbs"
+			],
+			[
+				"modeuserrb",
+				"rails/app/models/user.rb"
+			],
+			[
+				"usercontr",
+				"rails/app/controllers/api/v1/users_controller.rb"
+			],
+			[
+				"routeusne",
+				"ember/app/routes/groups/new.js"
+			],
+			[
+				"contuser",
+				"ember/app/controllers/users/new.js"
 			],
 			[
 				"base",
-				"ember/app/controllers/categories/base.js"
+				"ember/app/controllers/users/base.js"
 			],
 			[
-				"zero",
-				"ember/app/components/zero-clipboard.js"
+				"groupshbs",
+				"ember/app/templates/groups.hbs"
 			],
 			[
-				"docshjs",
-				"ember/app/routes/documents/show.js"
+				"usershbs",
+				"ember/app/templates/users.hbs"
 			],
 			[
-				"documnew",
-				"ember/app/routes/documents/new.js"
+				"routemem",
+				"ember/app/routes/memberships.js"
 			],
 			[
-				"routedo",
-				"ember/app/routes/documents.js"
+				"memec",
+				"rails/app/controllers/api/v1/memberships_controller.rb"
 			],
 			[
-				"contrbase",
+				"pdf",
+				"rails/app/views/api/v1/layouts/pdf.html.erb"
+			],
+			[
+				"showp",
+				"rails/app/views/api/v1/versions/show.pdf.erb"
+			],
+			[
+				"appcon",
+				"rails/app/controllers/application_controller.rb"
+			],
+			[
+				"modever",
+				"ember/app/models/version.js"
+			],
+			[
+				"versse",
+				"rails/app/serializers/api/v1/version_serializer.rb"
+			],
+			[
+				"railroutes",
+				"rails/config/routes.rb"
+			],
+			[
+				"appcontr",
+				"rails/app/controllers/application_controller.rb"
+			],
+			[
+				"routesversh",
+				"ember/app/routes/versions/show.js"
+			],
+			[
+				"versiocon",
+				"rails/app/controllers/api/v1/versions_controller.rb"
+			],
+			[
+				"versshow",
+				"ember/app/templates/versions/show.hbs"
+			],
+			[
+				"dochbs",
+				"ember/app/templates/documents/show.hbs"
+			],
+			[
+				"versbas",
+				"ember/app/controllers/versions/base.js"
+			],
+			[
+				"docbase",
 				"ember/app/controllers/documents/base.js"
 			],
 			[
-				"routenew",
+				"verco",
+				"rails/app/controllers/api/v1/versions_controller.rb"
+			],
+			[
+				"versser",
+				"rails/app/serializers/api/v1/version_serializer.rb"
+			],
+			[
+				"modelvers",
+				"ember/app/models/version.js"
+			],
+			[
+				"versspe",
+				"rails/spec/models/version_spec.rb"
+			],
+			[
+				"versrb",
+				"rails/app/models/version.rb"
+			],
+			[
+				"versioserial",
+				"rails/app/serializers/api/v1/version_serializer.rb"
+			],
+			[
+				"versionsho",
+				"ember/app/templates/versions/show.hbs"
+			],
+			[
+				"contrversio",
+				"rails/app/controllers/api/v1/versions_controller.rb"
+			],
+			[
+				"adduser",
+				"rails/db/migrate/20150428145023_add_user_id_to_versions.rb"
+			],
+			[
+				"modeluser",
+				"rails/app/models/user.rb"
+			],
+			[
+				"sharing",
+				"rails/app/models/sharing.rb"
+			],
+			[
+				"modelgroup",
+				"rails/app/models/group.rb"
+			],
+			[
+				"groupspec",
+				"rails/spec/models/group_spec.rb"
+			],
+			[
+				"documentspe",
+				"rails/spec/models/document_spec.rb"
+			],
+			[
+				"docue",
+				"rails/app/models/document.rb"
+			],
+			[
+				"modelsha",
+				"rails/app/models/sharing.rb"
+			],
+			[
+				"modeluserrb",
+				"rails/app/models/user.rb"
+			],
+			[
+				"document",
+				"rails/app/models/document.rb"
+			],
+			[
+				"modelver",
+				"rails/app/models/version.rb"
+			],
+			[
+				"modvers",
+				"rails/app/models/version.rb"
+			],
+			[
+				"moddorb",
+				"rails/app/models/document.rb"
+			],
+			[
+				"versionscon",
+				"rails/app/controllers/api/v1/versions_controller.rb"
+			],
+			[
+				"abilit",
+				"rails/app/models/ability.rb"
+			],
+			[
+				"roudocne",
 				"ember/app/routes/documents/new.js"
 			],
 			[
-				"documenthbs",
-				"ember/app/templates/documents.hbs"
+				"routedocne",
+				"ember/app/routes/documents/new.js"
 			],
 			[
-				"documentform",
+				"routedoced",
+				"ember/app/routes/documents/edit.js"
+			],
+			[
+				"docform",
 				"ember/app/templates/documents/-form.hbs"
 			],
 			[
-				"flash",
-				"ember/app/templates/components/flash-message.hbs"
+				"pph",
+				"ember/app/templates/application.hbs"
 			],
 			[
-				"appjs",
-				"ember/app/app.js"
+				"appsc",
+				"ember/app/styles/app.scss"
 			],
 			[
-				"initijs",
-				"ember/app/initializers/tooltip.js"
+				"versionfor",
+				"ember/app/templates/versions/-form.hbs"
 			],
 			[
-				"envi",
-				"ember/config/environment.js"
+				"versionsh",
+				"ember/app/templates/versions/show.hbs"
 			],
 			[
-				"pa",
-				"ember/package.json"
+				"docshowhbs",
+				"ember/app/templates/documents/show.hbs"
 			],
 			[
-				"cabase",
-				"ember/app/controllers/categories/base.js"
+				"versform",
+				"ember/app/templates/versions/-form.hbs"
 			],
 			[
-				"docedi",
-				"ember/app/controllers/documents/edit.js"
-			],
-			[
-				"contrcatne",
-				"ember/app/controllers/categories/new.js"
-			],
-			[
-				"edit",
-				"ember/app/templates/categories/edit.hbs"
+				"mylab",
+				"/Users/yannis/railsapps/mylab/ember/dist/assets/mylab.css"
 			],
 			[
 				"br",
 				"ember/Brocfile.js"
 			],
 			[
-				"bro",
-				"ember/Brocfile.js"
-			],
-			[
-				"b",
-				"ember/bower.json"
+				"docedithbs",
+				"ember/app/templates/documents/edit.hbs"
 			],
 			[
 				"bowe",
 				"ember/bower.json"
 			],
 			[
-				"packa",
+				"bro",
+				"ember/Brocfile.js"
+			],
+			[
+				"docuform",
+				"ember/app/templates/documents/-form.hbs"
+			],
+			[
+				"app",
+				"ember/app/app.js"
+			],
+			[
+				"bo",
+				"ember/bower.json"
+			],
+			[
+				"pa",
 				"ember/package.json"
 			],
 			[
@@ -8327,232 +1769,72 @@
 				"ember/bower.json"
 			],
 			[
-				"brocfile",
-				"ember/Brocfile.js"
+				"factsha",
+				"rails/spec/factories/sharings.rb"
 			],
 			[
-				"catba",
-				"ember/app/controllers/categories/base.js"
+				"modelsharrb",
+				"rails/app/models/sharing.rb"
 			],
 			[
-				"routes",
-				"ember/app/routes/documents.js"
-			],
-			[
-				"catcontr",
-				"rails/app/controllers/api/v1/categories_controller.rb"
-			],
-			[
-				"contdocuedi",
-				"ember/app/controllers/documents/edit.js"
-			],
-			[
-				"concatnew",
-				"ember/app/controllers/categories/new.js"
-			],
-			[
-				"catnewhbs",
-				"ember/app/templates/categories/new.hbs"
-			],
-			[
-				"versiosh",
-				"ember/app/templates/versions/show.hbs"
-			],
-			[
-				"catshow",
-				"ember/app/templates/categories/show.hbs"
-			],
-			[
-				"catecontr",
-				"rails/app/controllers/api/v1/categories_controller.rb"
-			],
-			[
-				"cathbs",
-				"ember/app/templates/categories.hbs"
-			],
-			[
-				"broc",
-				"ember/Brocfile.js"
-			],
-			[
-				"categohbs",
-				"ember/app/templates/categories.hbs"
-			],
-			[
-				"railsroutes",
-				"rails/config/routes.rb"
-			],
-			[
-				"concatrb",
-				"rails/app/controllers/api/v1/categories_controller.rb"
-			],
-			[
-				"contrdocumentrb",
-				"rails/app/controllers/api/v1/documents_controller.rb"
-			],
-			[
-				"routdocin",
-				"ember/app/routes/documents/index.js"
-			],
-			[
-				"routecate",
-				"ember/app/routes/categories.js"
-			],
-			[
-				"routeversio",
-				"ember/app/routes/versions.js"
-			],
-			[
-				"routecatne",
-				"ember/app/routes/categories/new.js"
-			],
-			[
-				"newhbs",
-				"ember/app/templates/categories/new.hbs"
-			],
-			[
-				"-form",
-				"ember/app/templates/versions/-form.hbs"
-			],
-			[
-				"categoriehb",
-				"ember/app/templates/categories.hbs"
-			],
-			[
-				"controlle",
-				"ember/app/controllers/versions.js"
-			],
-			[
-				"documentshbs",
-				"ember/app/templates/documents.hbs"
-			],
-			[
-				"modelversjs",
-				"ember/app/models/version.js"
-			],
-			[
-				"versjs",
-				"ember/app/controllers/versions.js"
-			],
-			[
-				"modeldojs",
-				"ember/app/models/document.js"
-			],
-			[
-				"modelcate",
-				"ember/app/models/category.js"
-			],
-			[
-				"fact",
+				"factdo",
 				"rails/spec/factories/documents.rb"
 			],
 			[
-				"cateser",
-				"rails/app/serializers/api/v1/category_serializer.rb"
+				"modesharspe",
+				"rails/spec/models/sharing_spec.rb"
 			],
 			[
-				"seriave",
-				"rails/app/serializers/api/v1/version_serializer.rb"
+				"contrdocumen",
+				"ember/app/controllers/documents.js"
 			],
 			[
-				"category",
-				"rails/spec/models/category_spec.rb"
+				"sharsha",
+				"ember/app/components/sharable-sharings.js"
 			],
 			[
-				"docrb",
-				"rails/app/models/document.rb"
+				"editgrousha",
+				"ember/app/templates/components/edit-group-sharing.hbs"
 			],
 			[
-				"faccate",
-				"rails/spec/factories/categories.rb"
+				"mar",
+				"ember/app/components/markdown-to-html.js"
 			],
 			[
-				"catespe",
-				"rails/spec/models/category_spec.rb"
+				"documentshow",
+				"ember/app/templates/documents/show.hbs"
 			],
 			[
-				"categspe",
-				"rails/spec/models/category_spec.rb"
+				"sharable-sharings",
+				"ember/app/components/sharable-sharings.js"
 			],
 			[
-				"atta",
-				"rails/app/models/attachment.rb"
+				"sharables",
+				"ember/app/components/sharable-sharing.js"
 			],
 			[
-				"acatta",
-				"rails/spec/factories/attachments.rb"
+				"sharings",
+				"ember/app/templates/documents/show/sharings.hbs"
 			],
 			[
-				"attaspe",
-				"rails/spec/models/attachment_spec.rb"
+				"documensha",
+				"ember/app/templates/documents/show/edit_sharing.hbs"
 			],
 			[
-				"factpi",
-				"rails/spec/factories/pictures.rb"
+				"showhbs",
+				"ember/app/templates/documents/show.hbs"
 			],
 			[
-				"modelpic",
-				"rails/app/models/picture.rb"
+				"contrdocshosha",
+				"ember/app/controllers/documents/show/sharings.js"
 			],
 			[
-				"picconspe",
-				"rails/spec/controllers/api/v1/pictures_controller_spec.rb"
+				"routedocs",
+				"ember/app/routes/documents/show.js"
 			],
 			[
-				"conspe",
-				"rails/spec/controllers/api/v1/docxes_controller_spec.rb"
-			],
-			[
-				"contrpict",
-				"rails/app/controllers/api/v1/pictures_controller.rb"
-			],
-			[
-				"docxes_controller_spec.rb",
-				"rails/spec/controllers/api/v1/docxes_controller_spec.rb"
-			],
-			[
-				"docx",
-				"rails/app/models/docx.rb"
-			],
-			[
-				"versions",
-				"ember/app/templates/versions.hbs"
-			],
-			[
-				"docontr",
-				"rails/app/controllers/api/v1/docxes_controller.rb"
-			],
-			[
-				"dospe",
-				"rails/spec/models/docx_spec.rb"
-			],
-			[
-				"contrpi",
-				"rails/app/controllers/api/v1/pictures_controller.rb"
-			],
-			[
-				"modeldoc",
-				"rails/app/models/docx.rb"
-			],
-			[
-				"docx_spec.rb",
-				"rails/spec/models/docx_spec.rb"
-			],
-			[
-				"pictures_controller_spec.rb",
-				"rails/spec/controllers/api/v1/pictures_controller_spec.rb"
-			],
-			[
-				"doxcontr",
-				"rails/app/controllers/api/v1/docxes_controller.rb"
-			],
-			[
-				"creatvers",
-				"rails/db/migrate/20150224104705_create_versions.rb"
-			],
-			[
-				"factve",
-				"rails/spec/factories/versions.rb"
+				"sharingcontr",
+				"rails/app/controllers/api/v1/sharings_controller.rb"
 			]
 		],
 		"width": 0.0

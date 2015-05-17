@@ -1,0 +1,34 @@
+<form {{action "save" on="submit"}}>
+  <div class="form-group">
+    <label>
+      Role
+      {{input value=model.role classNames="form-control document-form-role"}}
+    </label>
+  </div>
+  <div class="form-group">
+    <label>
+      Group
+      {{select-2
+        content=groups
+        value=model.group
+        optionLabelPath="name"
+        placeholder="Select a group"
+        allowClear=true
+      }}
+    </label>
+  </div>
+  <div class="form-group">
+    <label>
+      User
+      {{select-2
+        content=users
+        value=model.user
+        optionLabelPath="name"
+        placeholder="Select a user"
+        allowClear=true
+      }}
+    </label>
+  </div>
+  <input type="submit" value="Save" class="btn btn-success">
+  <button {{action "cancel"}} class="btn btn-default">cancel</button>
+</form>

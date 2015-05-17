@@ -3,52 +3,74 @@ require 'rails_helper'
 RSpec.describe API::V1::MembershipsController, type: :controller do
   context "Logged in" do
 
-    let(:user) { create :user }
-    let(:group) { create :group }
-    before { sign_in(user) }
+    let(:user1) { create :user }
+    let(:user2){create :user}
+    let(:group1) { create :group }
+    let(:group2) { create :group }
+    let!(:membership1){create :membership, user: user1, group: group1, role: 'admin'}
+    2.times do |i|
+      let!("membership#{i+2}".to_sym){create :membership, user: user1}
+    end
+    let!(:membership4){create :membership, user: user2, group: group1, role: 'basic'}
 
-    context "with 3 membership in the database" do
+    context "user signed in" do
 
-      3.times do |i|
-        let!("membership_#{i+1}".to_sym){create :membership, group: group}
-      end
+      before { sign_in(user1) }
 
-      describe "GET 'index'" do
-        before { get 'index', format: :json}
-        it { expect(response).to be_success }
-        it {expect(assigns(:memberships).to_a).to match_array [membership_1, membership_2, membership_3]}
-      end
+      context "with 3 membership in the database" do
 
-      describe "GET 'create'" do
-        before {
-          xhr :get, 'create', format: :json, membership: {user_id: user.id, group_id: group.id, role: "basic"}
-        }
-        it "returns http success" do
-          expect(response).to be_success
+        let!(:membership1){create :membership, user: user1, group: group1, role: 'admin'}
+        2.times do |i|
+          let!("membership#{i+2}".to_sym){create :membership, user: user1}
         end
-        it {expect(assigns(:membership)).to be_valid}
-        it {expect(assigns(:membership).group).to eql group}
-        it {expect(assigns(:membership).user).to eql user}
-      end
 
-      describe "GET 'update'" do
-        let(:another_user){create :user}
-        before { get 'update', id: membership_1.id, membership: {user_id: another_user.id}, format: :json}
-        it "returns http success" do
-          expect(response).to be_success
+        describe "GET 'index'" do
+          before { xhr :get, 'index'}
+          it { expect(response).to be_success }
+          it {expect(assigns(:memberships).to_a).to match_array [membership1, membership2, membership3, membership4]}
         end
-        it {expect(assigns(:membership).user).to eql another_user}
-      end
 
-      describe "DELETE 'destroy'" do
-        it {
-          expect{
-            xhr :get, 'destroy', id: membership_1.id, format: :json
-          }.to change{Membership.count}.by(-1)
-        }
-        it "returns http success" do
-          get 'destroy', id: membership_1.id, format: :json
-          expect(response.status).to eql 200
+        describe "GET 'create'" do
+          context "in a group1 administered by user1" do
+            let(:user3){create :user}
+            before {
+              xhr :get, 'create', membership: {user_id: user3.id, group_id: group1.id, role: "basic"}
+            }
+            it "returns http success" do
+              expect(response).to be_success
+            end
+            it {expect(assigns(:membership)).to be_valid}
+            it {expect(assigns(:membership).group).to eql group1}
+            it {expect(assigns(:membership).user).to eql user3}
+          end
+          context "in a group1 administered by user1" do
+            before {
+              xhr :get, 'create', membership: {user_id: user2.id, group_id: group2.id, role: "basic"}
+            }
+            it {expect(response).to be_forbidden}
+            it {expect(assigns(:membership)).to_not be_persisted}
+            it {expect(assigns(:membership).group).to eql group2}
+            it {expect(assigns(:membership).user).to eql user2}
+          end
+        end
+
+        describe "GET 'update'" do
+          it {expect(membership4).to be_valid}
+          before { xhr :put, 'update', id: membership4.id, membership: {role: 'admin'}}
+          it {expect(response).to be_success}
+          it {expect(assigns(:membership).user).to eql user2}
+        end
+
+        describe "DELETE 'destroy'" do
+          it {
+            expect{
+              xhr :delete, 'destroy', id: membership4.id
+            }.to change{Membership.count}.by(-1)
+          }
+          it "returns http success" do
+            xhr :delete, 'destroy', id: membership4.id
+            expect(response).to be_success
+          end
         end
       end
     end

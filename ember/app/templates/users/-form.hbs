@@ -1,15 +1,17 @@
 <form {{action "save" on="submit"}}>
-  <div class="form-group">
+  <div class="form-group {{if model.errors.name 'has-error' 'has-no-error'}}">
     <label>
       Name
       {{input value=model.name classNames="form-control document-form-name"}}
     </label>
+    {{form-errors model=model attribute='name'}}
   </div>
-  <div class="form-group">
+  <div class="form-group {{if model.errors.email 'has-error' 'has-no-error'}}">
     <label>
       Email
       {{input value=model.email classNames="form-control document-form-email"}}
     </label>
+    {{form-errors model=model attribute='email'}}
   </div>
   <input type="submit" value="Save" class="btn btn-success">
   <button {{action "cancel"}} class="btn btn-default">cancel</button>

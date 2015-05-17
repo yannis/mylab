@@ -1,9 +1,10 @@
 class API::V1::PicturesController < ApplicationController
 
+  load_and_authorize_resource :picture, param_method: :sanitizer
+
   respond_to :json
 
   def index
-    @pictures = Picture.all
     meta = {}
     if params[:page].present?
       page = (params[:page].presence || 1).to_i
@@ -15,13 +16,10 @@ class API::V1::PicturesController < ApplicationController
   end
 
   def show
-    @picture = Picture.find params[:id]
     respond_with @picture, serializer: API::V1::PictureSerializer
   end
 
   def create
-    # @picture = Picture.new(sanitizer)
-    @picture = Picture.new sanitizer
     @picture.save!
     render json: @picture, serializer: API::V1::PictureSerializer
     # if @picture.save
@@ -32,13 +30,11 @@ class API::V1::PicturesController < ApplicationController
   end
 
   def update
-    @picture = Picture.find params[:id]
     @picture.update_attributes sanitizer
     respond_with @picture
   end
 
   def destroy
-    @picture = Picture.find params[:id]
     respond_with @picture.destroy
   end
 

@@ -1,6 +1,12 @@
 require 'rails_helper'
 
 RSpec.describe Version, type: :model do
+
+  it {is_expected.to belong_to :document}
+  it {is_expected.to belong_to :creator}
+  it {is_expected.to belong_to :updater}
+
+
   describe "validation" do
     subject { create :version }
     it {is_expected.to belong_to :document}

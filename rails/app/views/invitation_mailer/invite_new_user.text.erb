@@ -1,0 +1,8 @@
+Hi <%= @invited_email %>,
+
+<%= @inviter.name %> invited you to <%= "http://#{ENV['MAILER_HOST']}" %>, a document sharing application.
+By accepting this invitation and creating your account in myLab, you'll have access to documents shared by your colleagues.
+To accept this invitation, please create an account here: <%= "http://#{ENV['MAILER_HOST']}/accept_invitation/#{@invitation.id}/#{@invitation.token}" %>
+To decline this invitation, please follow this link: <%= "http://#{ENV['MAILER_HOST']}/decline_invitation/#{@invitation.id}/#{@invitation.token}" %>
+
+The my Lab Team

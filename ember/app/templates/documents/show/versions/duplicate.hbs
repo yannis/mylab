@@ -1,0 +1,17 @@
+<div class='row'>
+  <div class="col-md-12">
+    <h3>
+      New version '{{model.name}}'
+      <br>
+      <small>
+        created {{formatted-date model.createdAt 'LL'}} – last updated {{formatted-date model.updatedAt 'LL'}}
+      </small>
+    </h3>
+  </div>
+  <div class="col-md-6">
+    {{partial 'documents/show/versions/form'}}
+  </div>
+  <div class="col-md-6 document-html">
+    {{markdown-to-html markdown=model.contentMd}}
+  </div>
+</div>

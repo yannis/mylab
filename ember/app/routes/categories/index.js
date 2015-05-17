@@ -9,7 +9,7 @@ export default Ember.Route.extend({
   afterModel: function(model, transition) {
     if (model.length) {
       var lastCategory = model.sortBy('name:asc').get('firstObject');
-      return this.transitionTo('documents.show', lastCategory);
+      return this.transitionTo('categories.show', lastCategory);
     }
   }
 });
